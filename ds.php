@@ -1,6 +1,5 @@
 
-<?php include("general.php"); ?>
-<?php include("header.php"); ?>
+<?php include("headerMore.php"); ?>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
@@ -42,8 +41,7 @@
                 });
 
                 // remove class btn
-                $('.btn-sothich button, .btn-diadiem button, .btn-tohop button').addClass('style-btn-ds');
-                $('.btn-sothich button, .btn-diadiem button, .btn-tohop button').removeClass('btn');
+
             });
 
         </script>

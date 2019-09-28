@@ -1,10 +1,14 @@
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
 <?php include("general.php"); ?>
-<?php include("header.php"); ?>
+<?php include("headerMore.php"); ?>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
-
-<div class = "container-fluid gray-bg">
+<style type="text/css">
+    body{
+    background: linear-gradient(rgb(0, 70, 127), rgb(165, 204, 130));
+}
+</style>
+<div class = "container-fluid pad-30 no-pad-l-r">
     <div class="templatemo-welcome" id="templatemo-welcome">
         <div class="container">
             <div class = "row">
@@ -14,7 +18,9 @@
                     <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
                 </div>
                 </div>
-                <div class = "col-sm-4 info-teacher">
+                <div class = "col-sm-4 info-teacher" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <div class = "row">
                         <div class = "col-sm-3">
                             <img src = "./site/img/img_avatar2.png">
@@ -35,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="templatemo-service-item">
+                    <div class="templatemo-service-item templatemo-service-item-2">
                         <div>
                             <img src="./site/img/images/open-book.png" alt="icon" />
                             <p class="templatemo-service-item-header">Phần đọc hiểu</p>
@@ -52,7 +58,7 @@
                 </div>
                 
                 <div class="col-md-4">
-                    <div class="templatemo-service-item style-text-title-vanhoc">
+                    <div class="templatemo-service-item style-text-title-vanho templatemo-service-item-3">
                         <div>
                             <img src="./site/img/images/pen.png" alt="icon"/>
                             <p class="templatemo-service-item-header">Đoạn văn nghị luận xã hội</p>
@@ -68,7 +74,7 @@
                 </div>
                 
                 <div class="col-md-4">
-                    <div class="templatemo-service-item style-text-title-vanhoc">
+                    <div class="templatemo-service-item style-text-title-vanhoc templatemo-service-item-4">
                         <div>
                             <img src="./site/img/images/write.png" alt="icon"/>
                             <p class="templatemo-service-item-header">Bài văn nghị luận văn học</p>

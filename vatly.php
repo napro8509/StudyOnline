@@ -1,11 +1,14 @@
 <?php include("general.php"); ?>
-<?php include("header.php"); ?>
+<?php include("headerMore.php"); ?>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
-<link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
-<style>
+<link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css"><style>
 #footer{
     position: absolute;
     bottom: 0px;
+}
+body{
+    background: linear-gradient(rgb(0, 70, 127), rgb(165, 204, 130));
 }
 </style>
 <div class= "container pad-30">

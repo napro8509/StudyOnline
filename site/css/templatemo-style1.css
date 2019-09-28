@@ -776,7 +776,12 @@ form {
 }
 
 footer {
-    background-color: #98d361;
+    /*background-color: #98d361; */
+        background-color: #ffbf1a;
+        background: linear-gradient(315deg, rgb(255, 128, 8) 0%, rgb(255, 200, 55) 74%);
+    width: 100%;
+    box-shadow: 0 8px 21px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 0px 0px 55px 55px;
 }
 
 .copyright-text {

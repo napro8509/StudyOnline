@@ -1,28 +1,25 @@
-<footer>
-	<div class ="container-fluid" id = "footer">
-		<div class = "row">
-			<div class="container pad-30 footer">
-				<div class="row">
-					<div class="col-4 padl-80">
-						<h5 class="title">Về chúng tôi</h5>
-						<p><a href="#">Khóa luận tốt nghiệp</a></p>
-						<p><a href="#">CNTT2015</a></p>
-					</div>
-					<div class="col-4 padl-80">
-						<h5 class="title">Hỗ trợ</h5>
-						<p><a href="#">Câu hỏi thường gặp</a></p>
-						<p><a href="#">Tài liệu</a></p>
-						<p><a href="#">Hướng dẫn giải bài tập</a></p>
-					</div>
-					<div class="col-4 padl-80">
-						<h5 class="title">Giới thiệu chung</h5>
-						<p><a href="#">Tin tức</a></p>
-						<p><a href="#">Giới thiệu</a></p>
-						<p><a href="#">Vinh danh 2000</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</footer>
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="icon-social-facebook"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="icon-social-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="#">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
+    </div>
+  </footer>
+   <script>
+    AOS.init();
+  </script>

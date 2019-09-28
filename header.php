@@ -1,5 +1,5 @@
 
-<body>
+<?php include("general.php"); ?>
 <!-- feature general -->
 <!-- modal Login, Sign in -->
 <div class="container">	  
@@ -85,118 +85,60 @@
 		</div>
 </div>
 <!-- end feature general -->
-<header>
-	<div class="container-fluid container-header">
-		<div class="row">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 col-xl-4 header-logo-left">
-						<h5>Đề Thi THPT Quốc Gia</h5>
-						<p>Tự học - Tự lập - Tự do</p>
-					</div>
-					<div class="col-sm-6 col-xl-8 header-user">
-						<input type="text" class="text-search" placeholder="Nhập mã câu hỏi để tìm đáp án">
-						<i class="fa fa-search"></i>
-						<button type="button" class="btn btn-background-blue-bold btn-style mrgr-10 " data-toggle="modal" data-target="#logIn">Đăng Nhập</button>
-						<button type="button" class="btn btn-background-blue-bold-white btn-style" data-toggle="modal" data-target="#signIn">Đăng ký</button>
-					</div>
-				</div>
-			</div> 
-		</div>
-	</div> 
-	<div class="container-fluid container-header-menu">
-		<div class="row">
-			<div class="container">
-				<div class="row header-menu">
-					<nav class="navbar navbar-expand-lg navbar-light">
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					    <span class="navbar-toggler-icon"></span>
-					  </button>
-					  <div class="collapse navbar-collapse" id="navbarNav">
-					    <ul class="navbar-nav">
-							<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Ôn thi THPT QG
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="./learningStrategy.html">Chiến lược học tập</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.php">Toán học</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./vatly.php">Vật lý</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.php">Hóa học</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./tree.php">Tiếng anh</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./vanhoc.php">Ngữ Văn</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./lichsu.php">Lịch Sử</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./dialy.php">Địa Lý</a>
-									</div>
-							</li>
-							<li class="nav-item dropdown">		
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Tổng ôn
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="./learningStrategy.html">Chiến lược học tập</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Toán học</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Vật lý</a>
-									</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Lớp 11
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="./learningStrategy.html">Chiến lược học tập</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Toán học</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Vật lý</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Hóa học</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Tiếng anh</a>
-									</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Lớp 10
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="./learningStrategy.html">Chiến lược học tập</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Toán học</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Vật lý</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Hóa học</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="./addListlesson.html">Tiếng anh</a>
-									</div>
-							</li>
-							<li class="nav-item">
-							  <a class="nav-link" href="./practiceExam.html">Luyện đề</a>
-							</li>
-							<li class="nav-item">
-							  <a class="nav-link" href="./toeic.html">TOEIC</a>
-							</li>
-							<li class="nav-item">
-							  <a class="nav-link" href="./fee.html">Học Phí</a>
-							</li>
-							<li class="nav-item">
-							  <a class="nav-link" href="./.php">Định Hướng</a>
-							</li>
-						  </ul>
-					  </div>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="" href="#page-top">UserName</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Tổng ôn</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">Lớp 11</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#services">Lớp 10</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Luyện đề</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">TOEIC</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Định Hướng</a>
+      </li>
+      <li>
+        <img src="./site/img/img_avatar2.png" style=" width: 100%;">
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
+      <h3 class="mb-5">
+        <em>title</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" tyle="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#signIn">Đăng Ký</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+
+
+  <script src="./site/vendor/jquery/jquery.min.js"></script>
+  <script src="./site/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="./site/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="./site/js/stylish-portfolio.js"></script>

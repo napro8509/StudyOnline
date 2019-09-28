@@ -1,10 +1,11 @@
 <?php include("general.php"); ?>
-<?php include("header.php"); ?>
+<?php include("headerMore.php"); ?>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
 
 
-<div class="templatemo-welcome templatemo-welcome-tree" id="templatemo-welcome">
+<div class="templatemo-welcome templatemo-welcome-tree pad-30" id="templatemo-welcome">
         <div class="container">
             <div class = "row">
                 <div class = "col-sm-8">
@@ -13,7 +14,9 @@
                     <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
                 </div>
                 </div>
-                <div class = "col-sm-4 info-teacher">
+                <div class = "col-sm-4 info-teacher" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
                     <div class = "row">
                         <div class = "col-sm-3">
                             <img src = "./site/img/img_avatar2.png">
