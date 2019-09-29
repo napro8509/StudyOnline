@@ -96,7 +96,7 @@ cursor: pointer;" onclick="selectSubject()">VÀO HỌC</p>
   <section class="content-section" id="portfolio">
 	    <div class="container">
 	      <div class="content-section-heading text-center">
-	        <h2 class="title-panel title-panel-black text-center color-title">Cùng khám phá các khóa ôn thi THPT Quốc Gia online nổi bật nhé…</h2>
+	        <h2 class="title-panel title-panel-black text-center color-title pad-30">Cùng khám phá các khóa ôn thi <br>THPT Quốc Gia online nổi bật nhé…</h2>
 	      </div>
 	      <div class="row no-gutters">
 	        <div class="col-lg-4" data-aos="flip-right" data-aos-duration="800">
@@ -173,7 +173,7 @@ cursor: pointer;" onclick="selectSubject()">VÀO HỌC</p>
 <section class="content-section bg-primary-hh pad-30 text-white text-center border-bg" id="services" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
 	<div class="container">
 	  <div class="content-section-heading">
-	    <h2 class="title-panel title-panel-black text-center">Và hiện giờ bạn có thể thỏa thích tương tác với...</h2>
+	    <h2 class="title-panel title-panel-black text-center">Và hiện giờ bạn có thể <br>thỏa thích tương tác với...</h2>
 	    <div class="line-main"></div>
 	  </div>
 	  <div class="row">
@@ -222,43 +222,43 @@ cursor: pointer;" onclick="selectSubject()">VÀO HỌC</p>
 				<div class="line-main"></div>
 				<div class="aboutFunctionsPanel row ">
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img class ="shake" alt="Luyện đề trắc nghiệm chọn lọc" src="./site/img/IconList.png">
+						<img class ="shake" alt="Luyện đề trắc nghiệm chọn lọc" src="./site/img/img1.png">
 						<a href="/luyen-de-tat-ca-0/1">Luyện đề trắc nghiệm chọn lọc</a>
 					</div>
 					
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Thách đấu bạn bè cùng chơi" src="./site/img/IconList.png">
+						<img alt="Thách đấu bạn bè cùng chơi" src="./site/img/img2.png">
 						<div>Thách đấu bạn bè cùng chơi</div>
 					</div>
 
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Tham gia các sự kiện hấp dẫn" src="./site/img/IconList.png">
+						<img alt="Tham gia các sự kiện hấp dẫn" src="./site/img/img3.png">
 						<div>Tham gia các sự kiện hấp dẫn</div>
 					</div>
 
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Tranh tài trên bảng xếp hạng" src="./site/img/IconList.png">
+						<img alt="Tranh tài trên bảng xếp hạng" src="./site/img/img4.png">
 						<div>Tranh tài trên bảng xếp hạng</div>
 					</div>
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Sử dụng offline với ứng dụng di động" src="./site/img/IconList.png">
+						<img alt="Sử dụng offline với ứng dụng di động" src="./site/img/img5.png">
 						<a href="/tin-tuc/cai-dat-ung-dung-5345312751222784">Sử dụng offline với ứng dụng di động</a>
 					</div>
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Được nhắc &amp; theo dõi tiến trình học của mình" src="./site/img/IconList.png">
+						<img alt="Được nhắc &amp; theo dõi tiến trình học của mình" src="./site/img/img6.png">
 						<div>Được nhắc &amp; theo dõi tiến trình<br>
 							học của mình</div>
 					</div>
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Nhận giải đáp nhanh chóng" src="./site/img/IconList.png">
+						<img alt="Nhận giải đáp nhanh chóng" src="./site/img/img7.png">
 						<div>Nhận giải đáp nhanh chóng</div>
 					</div>
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Tải thêm nhiều tài liệu miễn phí" src="./site/img/IconList.png">
+						<img alt="Tải thêm nhiều tài liệu miễn phí" src="./site/img/img8.png">
 						<div>Tải thêm nhiều tài liệu miễn phí</div>
 					</div>
 					<div class="aboutItem col-6 col-sm-6 col-md-4 col-lg-4 pad-30" style="visibility: visible;">
-						<img alt="Học qua video bài giảng" src="./site/img/IconList.png">
+						<img alt="Học qua video bài giảng" src="./site/img/img9.png">
 						<div>Học qua video bài giảng</div>
 					</div>
 				</div>

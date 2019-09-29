@@ -39,7 +39,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   	<!-- Custom scripts for this template -->
  	<script src="./site/js/stylish-portfolio.js"></script>
-
+ 	<link rel="stylesheet" type="text/css" href="./site/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="site/css/style-animation.css">
 	<link href="./site/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   	<link href="./site/css/stylish-portfolio.min.css" rel="stylesheet">

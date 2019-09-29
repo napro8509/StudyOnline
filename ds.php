@@ -80,7 +80,7 @@
             <div class= "row">
                 <div class="form-group" align="right">
                     <input type="hidden" id="ds" name="ds" value="">
-                    <input type="submit" class="btn btn-background-blue-bold" name="submit" value="Chọn"/>
+                    <input class="btn btn-background-blue-bold" name="submit" value="Chọn"/> <!--type="submit"--> 
                 </div>
             </div>
         </form>
@@ -88,7 +88,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="tm-section" id="tm-section-5">
+        <div class="tm-section" id="tm-section-5" style="display: none;">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <h3 class="blue-text">Danh sách trường tham khảo</h3>
         
@@ -150,3 +150,13 @@
         </div> <!-- tm-section -->        
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        
+    </div>
+</div>
+<script type="text/javascript">
+    $('.btn-background-blue-bold').click(function(){
+        $('.tm-section').show();
+    })
+</script>
