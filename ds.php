@@ -1,12 +1,16 @@
 
 <?php include("headerMore.php"); ?>
-<link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
-<link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400"> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
 
-<div class="container">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+<div class="container ds">
     <h2 align="center" class ="pad-30">ĐỊNH HƯỚNG BẢN THÂN</h2>
     <div style="width: 100%; margin:0 auto">
         <script>
@@ -17,6 +21,7 @@
                     enableFiltering: true,
                     enableCaseInsensitiveFiltering: true,
                     buttonWidth:'500px',
+                    includeSelectAllOption: true,
                 });
 
                 $('#diachi').multiselect({
@@ -24,6 +29,7 @@
                     enableFiltering: true,
                     enableCaseInsensitiveFiltering: true,
                     buttonWidth:'500px',
+                    includeSelectAllOption: true,
                 });
 
                 $('#quatrinh').multiselect({
@@ -31,8 +37,10 @@
                     enableFiltering: true,
                     enableCaseInsensitiveFiltering: true,
                     buttonWidth:'500px',
+                    includeSelectAllOption: true,
+
                     });
-                
+
                 $('#framework_form').on('submit', function(event){
                     //event.preventDefault();
                     var form_data = $(this).serialize();
@@ -88,8 +96,8 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="tm-section" id="tm-section-5" style="display: none;">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="show-gird col-12 col-sm-12" style="display: none;">
+            
                 <h3 class="blue-text">Danh sách trường tham khảo</h3>
         
                 <table class="table table-striped tm-full-width-large-table">
@@ -146,17 +154,13 @@
                         </tr>
                     </tbody>        
                 </table>
-            </div>
+            
         </div> <!-- tm-section -->        
     </div>
 </div>
-<div class="container">
-    <div class="row">
-        
-    </div>
-</div>
+
 <script type="text/javascript">
     $('.btn-background-blue-bold').click(function(){
-        $('.tm-section').show();
+        $('.show-gird').show();
     })
 </script>

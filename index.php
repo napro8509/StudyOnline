@@ -16,7 +16,7 @@
 			<div class="container">
 			<div class="row">
 				<div class="col col-xs-12 col-sm-6 col-md-4 col-lg-4">
-						<p class="title-q" style="background-color: #ffc857;cursor: pointer; background-image: linear-gradient(316deg, #ffc857 0%, #3e2f5b 74%);">CHỌN LỚP</p>
+						<p class="title-q" style="background-color: #ffc857;background-image: linear-gradient(316deg, #ffc857 0%, #3e2f5b 74%);">CHỌN LỚP</p>
 						<div class="form-group selectPanel">
 							<select class="form-control selectDown" id="select-class">
 								<option value="12" selected="">Lớp 12</option>
@@ -26,8 +26,7 @@
 						</div>
 					</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
-					<p class="title-q" style="background-color: #e6c79c;
-background-image: linear-gradient(315deg, #e6c79c 0%, #d6a3a3 74%); cursor: pointer;
+					<p class="title-q" style="background-color: #e6c79c; background-image: linear-gradient(315deg, #e6c79c 0%, #d6a3a3 74%);
 ">CHỌN MÔN</p>
 					<div class="form-group selectPanel">
 						<select class="form-control selectDown" id="select-subject">
@@ -41,9 +40,7 @@ background-image: linear-gradient(315deg, #e6c79c 0%, #d6a3a3 74%); cursor: poin
 						</div>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
-					<p class="title-q" style="background-color: #eec0c6;
-background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
-cursor: pointer;" onclick="selectSubject()">VÀO HỌC</p>
+					<p class="title-q" style="background-color: #eec0c6; background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); cursor: pointer;" onclick="selectSubject()">VÀO HỌC</p>
 				</div>	
 				<div class="col-12 text-center">
 					<img src="./site/img/banner-icon.png">

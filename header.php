@@ -2,6 +2,51 @@
 <?php include("general.php"); ?>
 <!-- feature general -->
 <!-- modal Login, Sign in -->
+<style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    .slider {
+        width: 100%;
+        margin: 0px auto;
+        height: 550px;
+    }
+    .slick-list.draggable{
+    	height: 550px;
+    }
+    .slick-slide {
+      margin: 0px 20px;
+    }
+    .slick-slide img {
+      width: 100%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+    .slick-current {
+      opacity: 1;
+    }
+    .slick-next{
+    	right: 35px;
+    }
+    .slick-pre{
+    	left: 35px;
+    	z-index: 99999;
+    }
+  </style>
 <div class="container">	  
 		<!-- Modal đăng nhập -->
 		<div class="modal fade" id="logIn" role="dialog">
@@ -121,7 +166,23 @@
 
   <!-- Header -->
   <header class="masthead d-flex">
-    <div class="container text-center my-auto">
+    <div class="container-fluid text-center my-auto">
+		  <section class="lazy slider" data-sizes="50vw">
+		    <div>
+		      <img src="./site/img/slide1.jpg">
+		    </div>
+		    <div>
+		    	<img src="./site/img/slide2.jpg">
+		    </div>
+		    <div>
+		    	<img src="./site/img/slide3.jpg">
+		    </div>
+		    <div>
+		    	<img src="./site/img/slide4.jpg">
+		    </div>
+		    
+
+  </section>
       <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
       <h3 class="mb-5">
         <em>title</em>
@@ -142,3 +203,16 @@
 
   <!-- Custom scripts for this template -->
   <script src="./site/js/stylish-portfolio.js"></script>
+  		    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="site/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+	
+</script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true,
+        autoplay:true
+      });
+    });
+</script>
