@@ -166,29 +166,46 @@
 
   <!-- Header -->
   <header class="masthead d-flex">
-    <div class="container-fluid text-center my-auto">
-		  <section class="lazy slider" data-sizes="50vw">
-		    <div>
-		      <img src="./site/img/slide1.jpg">
-		    </div>
-		    <div>
-		    	<img src="./site/img/slide2.jpg">
-		    </div>
-		    <div>
-		    	<img src="./site/img/slide3.jpg">
-		    </div>
-		    <div>
-		    	<img src="./site/img/slide4.jpg">
-		    </div>
-		    
-
-  </section>
-      <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
-      <h3 class="mb-5">
-        <em>title</em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" tyle="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
-      <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#signIn">Đăng Ký</a>
+    <div class="container-fluid text-center">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="./site/img/slide3.jpg">
+                  <div class="carousel-caption">
+                    <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" tyle="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#signIn">Đăng Ký</a>
+                  </div>
+              </div>  
+              <div class="carousel-item">
+                  <img src="./site/img/sllide2.jpg">
+                  <div class="carousel-caption">
+                    <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" tyle="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#signIn">Đăng Ký</a>
+                  </div>
+              </div> 
+              <div class="carousel-item">
+                  <img src="./site/img/slide5.jpg">
+                  <div class="carousel-caption">
+                    <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" tyle="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#signIn">Đăng Ký</a>
+                  </div>
+              </div> 
+            </div>  
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
     </div>
     <div class="overlay"></div>
   </header>
@@ -206,13 +223,4 @@
   		    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script src="site/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 	
-</script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-      $(".lazy").slick({
-        lazyLoad: 'ondemand', // ondemand progressive anticipated
-        infinite: true,
-        autoplay:true
-      });
-    });
 </script>

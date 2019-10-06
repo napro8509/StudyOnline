@@ -3,11 +3,6 @@
 <?php include("headerMore.php"); ?>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
-<style type="text/css">
-    body{
-    background: linear-gradient(rgb(0, 70, 127), rgb(165, 204, 130));
-}
-</style>
 <div class = "container-fluid pad-30 no-pad-l-r">
     <div class="templatemo-welcome" id="templatemo-welcome">
         <div class="container">
@@ -22,10 +17,10 @@
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
                     <div class = "row">
-                        <div class = "col-sm-3">
+                        <div class = "col-3">
                             <img src = "./site/img/img_avatar2.png">
                         </div>
-                        <div class = "col-sm-9">
+                        <div class = "col-9">
                             <h5 class = "name">Thai Thi Hoa</h5>
                             <p class = "age">34 tuoi</p>
                             <p class = "Mon">Ngu Van<p>

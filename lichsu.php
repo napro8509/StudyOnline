@@ -32,10 +32,10 @@
      data-aos-offset="500"
      data-aos-easing="ease-in-sine">
                         <div class = "row">
-                            <div class = "col-sm-3">
+                            <div class = "col-3 col-sm-3">
                                 <img src = "./site/img/img_avatar2.png">
                             </div>
-                            <div class = "col-sm-9">
+                            <div class = "col-9 col-sm-9">
                                 <h5 class = "name">Thai Thi Hoa</h5>
                                 <p class = "age">34 tuoi</p>
                                 <p class = "Mon">Ngu Van<p>
