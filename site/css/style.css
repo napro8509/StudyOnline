@@ -1227,5 +1227,30 @@ top: 2px;
         .masthead img{
             height: 300px;
         }
+        .templatemo-service-item{
+            border-radius: 10px!important;
+        }
+        .templatemo-service{
+            padding-top: 50px!important;
+            padding-bottom: 50px!important;
+        }
+        .btn-orange{
+            font-size: 13px!important;
+        }
+        .vanhoc-flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;;
+        }
+        .templatemo-service-item{
+            padding: 20px;
+        }
+        p.templatemo-service-item-header{
+            height: 37px!important;
+            padding: 0px 10px!important;
+        }
+        .height-col-vanhoc{
+            height: auto!important;
+        }
 
 }

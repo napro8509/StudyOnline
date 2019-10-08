@@ -43,7 +43,7 @@
                         </div>
                         <p class = "height-col-vanhoc">You do not need to provide a back link to us. You can freely use this template for any purpose. Donec eu lacus in diam euismod imperdiet eu ut turpis. Morbi felis orci, tincidunt pretium laoreet id.</p>
                         <br>
-                        <div class="text-center">
+                        <div class="text-center vanhoc-flex">
                             <a href="#" 
                                 class="templatemo-btn-read-more btn btn-orange">Xem Chi tiết</a>
                         </div>
@@ -60,7 +60,7 @@
                         </div>
                         <p class = "height-col-vanhoc">Urbanic Template is free Bootstrap CSS layout provided by TemplateMo. Credits go to  and for images used in this template. You may share our website link to your friends. Thank you for visiting.</p>
                         <br>
-                        <div class="text-center">
+                        <div class="text-center vanhoc-flex">
                             <a href="#" class="templatemo-btn-read-more btn btn-orange">Xem Chi Tiết</a>
                         </div>
                         <br class="clearfix"/>
@@ -76,7 +76,7 @@
                         </div>
                         <p class = "height-col-vanhoc">Please visit blog to get latest collections of great HTML Bootstrap templates for your websites. Quisque id turpis tristique, venenatis erat sit amet, venenatis turpis. Ut tellus ipsum, posuere bibendum consectetur.</p>
                         <br>
-                        <div class="text-center">
+                        <div class="text-center vanhoc-flex">
                             <a href="#" 
                                 class="templatemo-btn-read-more btn btn-orange">Xem Chi Tiết</a>
                         </div>
