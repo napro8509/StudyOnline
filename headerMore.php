@@ -93,28 +93,34 @@
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-      	<a class="" href="#page-top">UserName</a>
+        <img src="./site/img/img_avatar2.png">
+        <a class="" href="#page-top">UserName</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Tổng ôn</a>
+        <a class="js-scroll-trigger1" href="#page-top">Tổng ôn</a>
+      </li>
+      <li class="sidebar-nav-item dropdown">
+        <a class="js-scroll-trigger1 dropdown-toggle" id="lop11-Dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lớp 11</a>
+          <div class="dropdown-menu" aria-labelledby="lop11-Dropdown">
+	          <a class="dropdown-item" href="#">Toán Học</a>
+	          <a class="dropdown-item" href="#">Vật Lý</a>
+	          <a class="dropdown-item" href="#">Hóa Học</a>
+   		  </div>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">Lớp 11</a>
+        <a class="js-scroll-trigger1" href="#services">Lớp 10</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Lớp 10</a>
+        <a class="js-scroll-trigger1" href="#portfolio">Luyện đề</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Luyện đề</a>
+        <a class="js-scroll-trigger1" href="#contact">TOEIC</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">TOEIC</a>
+        <a class="js-scroll-trigger1" href="#contact">Định Hướng</a>
       </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Định Hướng</a>
-      </li>
-      <li>
-        <img src="./site/img/img_avatar2.png" style=" width: 100%;">
+      <li class="last-li-menu">
+      	<button class="btn-logout">Log Out</button>
       </li>
     </ul>
   </nav>

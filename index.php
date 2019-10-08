@@ -42,7 +42,7 @@
 				<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 					<p class="title-q" style="background-color: #eec0c6; background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); cursor: pointer;" onclick="selectSubject()">VÀO HỌC</p>
 				</div>	
-				<div class="col-12 text-center">
+				<div class="col-12 text-center mobile-hide">
 					<img src="./site/img/banner-icon.png">
 				</div>					
 			</div>		

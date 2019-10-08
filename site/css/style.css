@@ -29,14 +29,6 @@ body{
 	overflow-x: hidden;
     font-family: ProximaNova-Regular!important;   
 }
-@media screen and(max-width: 767px){
-    .moblie-show{
-        display: block;
-    }
-}
-    .mobile-hide{
-        display: none;
-    }
 .no-pad-l-r{
     padding-left: 0px;
     padding-right: 0px;
@@ -810,7 +802,7 @@ ul.nav-wizard li a {
 /*style new header-more*/
 .masthead-more{
     background-color: #ffbf1a;
-    background: linear-gradient(to right, #00a99d, #0f3443);
+    background: linear-gradient(315deg, #075c6f 0%, #00a99d 74%);
     width: 100%;
     height: 140px;
     box-shadow: 0 8px 21px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -1122,8 +1114,59 @@ top: 2px;
         .carousel-control-next, .carousel-control-prev{
             width: 9%;
         }
-
+        #sidebar-wrapper.active{
+            width: 30%;
+        }
+        #sidebar-wrapper{
+            background: #00a99d;
+        }
+        .sidebar-nav{
+            width: 100%;
+        }
+        #sidebar-wrapper img{
+            max-width: 13%;
+            border-radius: 50%;
+            box-shadow: 4px 3px 17px 1px black;
+            margin-right: 20px;
+        }
+        .btn-logout{
+            border:none
+            ;
+        }
+        .last-li-menu{
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+        .btn-logout{
+            width: 100%;
+            height: 40px;
+            box-shadow: 10px 3px 16px 4px black;
+            background: transparent;
+            color: #fff;
+        }
+        footer.footer .social-link{
+            background-color: #00a99d;
+        }
+        .js-scroll-trigger{
+            background-color: #00a99d;
+            background-image: linear-gradient(315deg, #075c6f 0%, #00a99d 74%);
+        }
+        #sidebar-wrapper{
+            z-index: 99;
+        }
+        .dropdown-menu{
+            width: 100%;
+            background: #00a99d;
+            box-shadow: 11px 6px 22px -10px black
+        }
 @media screen and (max-width: 767px){
+    .mobile-show{
+        display: block;
+    }
+    .mobile-hide{
+        display: none;
+    }
     .js-scroll-trigger{
             font-size: 13px!important;
             padding: 5px 20px!important;
@@ -1164,5 +1207,25 @@ top: 2px;
     left: 0px;
     top: 0px;
     }
+            #sidebar-wrapper.active{
+            width: 90%;
+        }
+        .menu-toggle{
+                left: 315px;
+                width: 40px;
+                height: 40px;
+        }
+        .menu-toggle.rounded{
+            display: flex;
+            justify-content: center;
+            align-items: center;;
+        }
+        #sidebar-wrapper img{
+            max-width: 6%;
+        }
+
+        .masthead img{
+            height: 300px;
+        }
 
 }
