@@ -16,6 +16,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./site/js/script.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="site/css/style.css"> <!-- luôn để cuối cùng-->
 </head>
@@ -23,10 +24,10 @@
 <body>
 <!-- code lesson -->
 <content>
-	<div class="container pad-30">
+	<div class="container pad-60">
 		<div class="row">
 			<div class="col-12" style="margin-bottom: 12px;">
-				<img src="./site/img/images/second-icon.png">
+				<button type="button" class="lesson-btn-title back-btn-lesson"><i style="font-size: 40px;transform: rotate(180deg);margin-left: -7px;" class="fa fa-sign-out" aria-hidden="true"></i></button>
 				<span class="text-title">HH010101 – Este-Lipit: Khái niệm, tên gọi, CTTQ của este, tính chất vật lý</span>
 			</div>
 		</div>
@@ -34,90 +35,115 @@
 			<div class="col-8">
 				<div class="video-panel">
 					<div style="width: 100%; margin: 0px auto; height: 100%;" id="video-player-panel">
-<!-- 			            			<img width="100%" onload="onLoadImage(this)" src="../../images/bai-giang/video-temp.jpg"> -->
-						<iframe width="100%" height="100%" onload="onLoadVideo(this)" src="https://www.youtube.com/embed/Trmxp1DhjcI" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Trmxp1DhjcI" frameborder="0" gesture="media" allowfullscreen=""></iframe>
 					</div>
 					<i id="view-video"></i>
 				</div>
 			</div>
 			<div class="col-4 border-col">
-				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><i class="fa fa-play-circle"></i>HH010101-01_Khái niệm Este_ Lipit</a><br><br>
-				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><i class="fa fa-play-circle"></i>HH010101-01_Khái niệm Este_ Lipit</a><br><br>
-				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><i class="fa fa-play-circle"></i>HH010101-01_Khái niệm Este_ Lipit</a><br><br>
-				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><i class="fa fa-play-circle"></i>HH010101-01_Khái niệm Este_ Lipit</a><br><br>
-				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><i class="fa fa-play-circle"></i>HH010101-01_Khái niệm Este_ Lipit</a><br><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
+				<a href="#" class="v_list clean icon-play_new" data-title="Video 1: HH010101-01_Khái niệm Este_ Lipit"><img src="./site/img/img7.png">HH010101-01_Khái niệm Este_ Lipit</a><br>
 			</div>
 		</div>
-		<div class="row pad-30">
+		<div class="row pad-60">
 			<div class="col-8">
-				<img src="./site/img/images/second-icon.png">
-				<span class="text-title">Vào làm bài tập</span>
+				<div class="row">
+					<img src="./site/img/img11.png">
+					<span class="text-title">Vào làm bài tập</span>
+				</div>
+				<br>
 				<p class="thang-cham-diem"> Kết quả Giỏi, Thường, hay Yếu phụ thuộc vào mức độ hoàn thành bài tập và được tô màu ở phần danh sách bài giảng. </p>
+				<br>
 				<div class="row text-center">
 					<div class="col-4">
-						<div class="cirle cirle-10"><span>10%</span></div>
-						<button class="btn-background-red btn-lesson">Trắc nghiệm thông minh</button>
+						<div class="cirle cirle-yeu"><span>10%</span></div>
+						<button class="btn-background-green btn-lesson">Câu hỏi cơ bản</button>
 					</div>
 					<div class="col-4">
-						<div class="cirle"><span>0%</span></div>
-						<button class="btn-background-red btn-lesson">Trắc nghiệm thông minh</button>
+						<div class="cirle cirle-kha"><span>79%</span></div>
+						<button class="btn-background-green btn-lesson">Câu hỏi nâng cao</button>
 					</div>
-					<div class="col-4">
-						<div class="cirle"><span>0%</span></div>
-						<button class="btn-background-red btn-lesson">Trắc nghiệm thông minh</button>
+					<div class="col-4 text-left">
+						<h5 style="color:#00a99d;">Màu trạng thái</h5>
+						<div><i class="fa fa-square fa-square-yeu"></i><span>Yếu (<49%)</span></div>
+						<div><i class="fa fa-square fa-square-tb"></i><span>Trung Bình (50%-64%)</span></div>
+						<div><i class="fa fa-square fa-square-kha"></i><span>Khá (65% - 79%)</span></div>
+						<div><i class="fa fa-square fa-square-gioi"></i><span>Giỏi (>80%)</span></div>
+
 					</div>
 				</div>
 			</div>
 			<div class="col-4 img-general">
-				<img src="./site/img/images/open-book.png">
-				<span>Tài liệu bài giảng</span>
-				<p>
-					<a href="#"><i class="fa fa-play-circle"></i>HH010101 KN este lipit</a><br>
-					<a href="#"><i class="fa fa-play-circle"></i>HH010101 KN este lipit</a><br>
+				<div class="img-general-baigiang">
+					<img src="./site/img/tl.png">
+					<span class="lesson-title-right">Tài liệu bài giảng</h5>
+				</div>
+
+				<p class="lesson-img">
+					<a href="#"><i class="fa fa-folder"></i>HH010101 KN este lipit</a><br>
+					<a href="#"><i class="fa fa-folder"></i>HH010101 KN este lipit</a><br>
 				</p>
-				<br>
-				<img src="./site/img/images/open-book.png">
-				<span>Cộng đồng</span>
-				<p>
-					<a href="#"><i class="fa fa-play-circle"></i>HH010101 KN este lipit</a><br>
-					<a href="#"><i class="fa fa-play-circle"></i>HH010101 KN este lipit</a><br>
+				<br><br>
+				<div class="img-general-baigiang">
+					<img src="./site/img/tl.png">
+					<span class="lesson-title-right">Cộng đồng</h5>
+				</div>
+
+				<p class="lesson-img">
+					<a href="#"><i class="fa fa-folder"></i>HH010101 KN este lipit</a><br>
+					<a href="#"><i class="fa fa-folder"></i>HH010101 KN este lipit</a><br>
 				</p>
 			</div>
 		</div>
-		<div class="row pad-30">
+		<div class="row pad-60">
 			<div class="col-8 border-comment">
 				<div class="comment-user">
 					<img src="./site/img/IconComment.png">
-					<span>Bình luận ( <span class="number-comment">9</span>)</span>
-					<div class="form-group">
-						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Thêm Bình Luận"></textarea>
+					<span class="comment-title">Bình luận ( <span class="number-comment">9</span>)</span>
+					<div class="row pad-30">
+						<div class="col-2-edit">
+							<img src="./site/img/img_avatar2.png">
+						</div>
+						<div class="col-10-edit form-group">
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Thêm Bình Luận"></textarea>
+						</div>
 					</div>
 				</div>
 			<!-- xem binh luan-->
 				<div class="comment-read">
 					<div class="row">
-						<div class="col-2"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
-						<div class="col-9" style = "align-self: center;">					
+						<div class="col-2-edit"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
+						<div class="col-10-edit" style = "align-self: center;">					
 							<span class="user-name">Nguyen Long</span>
 							<br>
-							<a href="reply">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
+							<a href="#" class="js-lesson-reply-input">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
+							<textarea class="form-control lesson-open-input" id="exampleFormControlTextarea1" rows="3" placeholder="Thêm Bình Luận" hidden></textarea>
 						</div>
 					</div>
 				</div>
 				<div class="comment-read">
 						<div class="row">
-							<div class="col-2"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
-							<div class="col-9" style = "align-self: center;">					
+							<div class="col-2-edit"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
+							<div class="col-10-edit" style = "align-self: center;">					
 								<span class="user-name">Nguyen Long</span>
 								<br>
-								<a href="reply">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
-								<br><br><br>
+								<a href="#" class="js-lesson-reply-input">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
+								<br>
 								<div class="row reply-comment">
-									<div class="col-2"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
-									<div class="col-9" style = "align-self: center;">					
+									<div class="col-2-edit"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
+									<div class="col-10-edit" style = "align-self: center;">					
 										<span class="user-name">Nguyen Long</span>
 										<br>
-										<a href="reply">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
+										<a href="#" class="js-lesson-reply-input">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
 									</div>
 								</div>
 
@@ -126,11 +152,10 @@
 				</div>
 				<div class="comment-read">
 					<div class="row">
-						<div class="col-2"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
-						<div class="col-9" style = "align-self: center;">					
+						<div class="col-2-edit"><img class="avatar-comment" src="./site/img/img_avatar2.png"></div>
+						<div class="col-9-edit" style = "align-self: center;">					
 							<span class="user-name">Nguyen Long</span>
-							<br>
-							<a href="reply">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
+							<a href="#" class="js-lesson-reply-input">Trả lời</a><span class="date-time">20:59-27/03/2019</span>
 						</div>
 					</div>
 				</div>
@@ -141,7 +166,6 @@
 
 	</div>
 </content>
-
 
 </body>
 </html>
