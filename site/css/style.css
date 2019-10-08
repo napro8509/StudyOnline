@@ -1119,6 +1119,10 @@ top: 2px;
         ::-webkit-scrollbar-thumb:hover {
           background: #00a99d; 
         }
+        .carousel-control-next, .carousel-control-prev{
+            width: 9%;
+        }
+
 @media screen and (max-width: 767px){
     .js-scroll-trigger{
             font-size: 13px!important;
@@ -1133,4 +1137,32 @@ top: 2px;
     .name, .age, .Mon{
         font-size: 12px;
     }
+    #addLesson .text-title{
+        font-size: 24px;
+    }
+    #addLesson .border-col{
+        margin-top: 44px;
+    }
+    #addLesson .row.pad-60{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .lesson-mobile-bottom{
+        margin-bottom: 30px;
+    }
+    .btn-lesson {
+        width: 250px;
+    }
+    .col-10-edit{
+        width: 80%;
+    }
+    .col-2-edit{
+        width: 20%;
+    }
+    .lesson-btn-title{
+            position: relative;
+    left: 0px;
+    top: 0px;
+    }
+
 }
