@@ -127,10 +127,14 @@
 
   <!-- Header -->
   <header class="masthead-more d-flex">
+  		<div class="header-get-started">
+		<a class="btn btn-primary btn-xl js-scroll-trigger">Get Started</a>
+	</div>                    
+<!-- 	<a class="btn btn-primary btn-xl js-scroll-trigger" style="visibility: visible;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
+     
+     <a class="btn btn-primary btn-xl js-scroll-trigger" style="visibility: visible;" data-toggle="modal" data-target="#signIn">Đăng Ký</a> -->
     <div class="container text-center my-auto">
       <h3 class="mb-1">Ôn Thi THPT Quốc Gia</h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#signIn">Đăng Ký</a>
     </div>
     <div class="overlay"></div>
   </header>

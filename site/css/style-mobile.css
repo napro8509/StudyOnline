@@ -1,0 +1,94 @@
+@media screen and (max-width: 767px){
+    .mobile-show{
+        display: block;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .js-scroll-trigger{
+            font-size: 13px!important;
+            padding: 5px 20px!important;
+    }
+    .mb-1{
+        font-size: 22px!important;
+    }
+    .templatemo-slogan{
+        font-size: 22px!important;
+    }
+    .name, .age, .Mon{
+        font-size: 12px;
+    }
+    #addLesson .text-title{
+        font-size: 24px;
+    }
+    #addLesson .border-col{
+        margin-top: 44px;
+    }
+    #addLesson .row.pad-60{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .lesson-mobile-bottom{
+        margin-bottom: 30px;
+    }
+    .btn-lesson {
+        width: 250px;
+    }
+    .col-10-edit{
+        width: 80%;
+    }
+    .col-2-edit{
+        width: 20%;
+    }
+    .lesson-btn-title{
+            position: relative;
+    left: 0px;
+    top: 0px;
+    }
+            #sidebar-wrapper.active{
+            width: 90%;
+        }
+        .menu-toggle{
+                left: 315px;
+                width: 40px;
+                height: 40px;
+        }
+        .menu-toggle.rounded{
+            display: flex;
+            justify-content: center;
+            align-items: center;;
+        }
+        #sidebar-wrapper img{
+            max-width: 6%;
+        }
+
+        .masthead img{
+            height: 300px;
+        }
+        .templatemo-service-item{
+            border-radius: 10px!important;
+        }
+        .templatemo-service{
+            padding-top: 50px!important;
+            padding-bottom: 50px!important;
+        }
+        .btn-orange{
+            font-size: 13px!important;
+        }
+        .vanhoc-flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;;
+        }
+        .templatemo-service-item{
+            padding: 20px;
+        }
+        p.templatemo-service-item-header{
+            height: 37px!important;
+            padding: 0px 10px!important;
+        }
+        .height-col-vanhoc{
+            height: auto!important;
+        }
+
+}

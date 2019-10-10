@@ -197,7 +197,7 @@
                   <img src="./site/img/sllide2.jpg">
                   <div class="carousel-caption">
                     <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
-                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" tyle="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
                     <a class="btn btn-primary btn-xl js-scroll-trigger bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;" data-toggle="modal" data-target="#signIn">Đăng Ký</a>
                   </div>
               </div> 

@@ -43,6 +43,7 @@
 	<link rel="stylesheet" type="text/css" href="site/css/style-animation.css">
 	<link href="./site/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   	<link href="./site/css/stylish-portfolio.min.css" rel="stylesheet">
-  	<link rel="stylesheet" type="text/css" href="site/css/style.css"> <!-- luôn để cuối cùng-->
+  	<link rel="stylesheet" type="text/css" href="site/css/style.css">
+  	<link rel="stylesheet" type="text/css" href="site/css/style-mobile.css"> <!-- luôn để cuối cùng-->
 </head>
  
