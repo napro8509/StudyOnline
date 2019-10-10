@@ -1247,6 +1247,7 @@ top: 2px;
       margin: 0;
       height: calc(100vh - 65px);
       overflow: hidden;
+      color: #00a99d;
 }
 #tryExam .page-container {
   
