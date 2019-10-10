@@ -128,7 +128,7 @@
   <!-- Header -->
   <header class="masthead-more d-flex">
   		<div class="header-get-started">
-		<a class="btn btn-primary btn-xl js-scroll-trigger">Get Started</a>
+		<a class="btn-primary btn-xl js-scroll-trigger">Get Started</a>
 	</div>                    
 <!-- 	<a class="btn btn-primary btn-xl js-scroll-trigger" style="visibility: visible;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
      

@@ -4,15 +4,15 @@
 <?php include("headerMore.php"); ?>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
-<div id="second-section2" class="quiz-container">
-        <div class="container">
+<div id="second-section2" class="quiz-container pad-60">
+        <div class="container pad-60">
             <div class="row" >
             	<div class="col-md-2"></div>
                 <div class="col-md-8">
 			
 		<div class="row">
 			<form id="form" method="post" action="check.php">
-				<div align="right">
+				<div class="col-12 text-right" align="right">
 				
 				</div>
 			<?php
@@ -75,7 +75,7 @@
 				?>
 
 			</form>
-				<div align="right">
+				<div class="col-12 text-right" align="right">
 				<?php
 				echo "<ul class='pagination' >";
 				if($per_page > 1)
@@ -108,12 +108,15 @@
 				<form name="form" action="" method="POST">
 					<input hidden id="answer" VALUE ="answer_get" NAME = "answer_get">
 				</form>	
-				<div align="center">
+			
+		</div>
+		</div>
+		<div class="col-md-2">
+			<div class="col-12"><p id="time" class="text-center"></p></div><br>
+			<div class="col-12 text-center" align="center">
 					<button class='submit' id="nextPage" onclick="showKQ();" >Nạp Bài</button>
-				</div>				
+			</div>	
 		</div>
-		</div>
-		<div class="col-md-2"><p id="time"></p></div>
 </div>
 </div>
 </div>

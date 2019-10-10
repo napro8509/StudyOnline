@@ -1190,8 +1190,8 @@ top: 2px;
 .quiz-container .w3-example {
     background-color: #f1f1f1;
     padding: 0.01em 16px;
-    margin: 20px 0;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    margin-bottom: 20px;
 }
 .quiz-container .w3-code {
     width: auto;
@@ -1203,7 +1203,6 @@ top: 2px;
 .quiz-container .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
   border-radius: 4px;
 }
 .quiz-container .pagination > li {
@@ -1218,28 +1217,33 @@ top: 2px;
   padding: 6px 12px;
   margin-left: -1px;
   line-height: 1.42857143;
-  color: #337ab7;
+  color: #fff;
   text-decoration: none;
-  background-color: #fff;
+  background-color: #00a99d;
   border: 1px solid #ddd;
+  border-radius: 5px;
+    margin-left: 10px;
 }
 .quiz-container .submit {
     position: relative;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
-  padding: 6px 12px;
+  padding: 7px 30px;
   margin-left: -1px;
   line-height: 1.42857143;
-  color: #337ab7;
+  color: #fff;
   text-decoration: none;
-  background-color: #fff;
+  background-color: #00a99d;
   border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
 }
 .quiz-container form{
     width: 100%;
 }
 .quiz-container input, textarea{
     width: auto;
+    margin-right: 10px;
 }
 /*splitter*/
 #tryExam{
@@ -1376,4 +1380,16 @@ top: 2px;
  }
  .tb-title{
     text-align: center;;
+ }
+ .quiz-container #time{
+    background-color: #00a99d;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 150px;
+ }
+ .quiz-container form{
+    margin: 0;
  }
