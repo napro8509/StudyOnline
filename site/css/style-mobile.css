@@ -1,4 +1,14 @@
 @media screen and (max-width: 767px){
+    .masthead{
+        min-height: 14rem;
+    }
+    .content-section{
+                padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    }
+    .content-section-heading h2{
+        font-size: 25px;
+    }
     .mobile-show{
         display: block;
     }
@@ -8,6 +18,11 @@
     .js-scroll-trigger{
             font-size: 13px!important;
             padding: 5px 20px!important;
+    }
+    .service-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .mb-1{
         font-size: 22px!important;
@@ -47,6 +62,7 @@
     }
             #sidebar-wrapper.active{
             width: 90%;
+            z-index: 9999;
         }
         .menu-toggle{
                 left: 315px;
@@ -63,7 +79,7 @@
         }
 
         .masthead img{
-            height: 300px;
+            height: 200px;
         }
         .templatemo-service-item{
             border-radius: 10px!important;
@@ -101,7 +117,7 @@
             padding-bottom: 0px;
         }
         .mb-1{
-            font-size: 13px!important;
+            font-size: 18px!important;
         }
         .masthead-more .btn-get-started{
             width: 106px;
@@ -164,5 +180,32 @@
         }
         .tree .cd-timeline-content, .tree .cd-timeline-block .projects{
             margin-left: 40px;
+             padding-bottom: 0px;
+             margin-top: 10px;
+             margin-bottom: 30px;
+        }
+        .menu-toggle{
+            z-index: 9999999;
+        }
+        .statictisItem{
+            width: 50%;
+        }
+        .statictisTitleHTML{
+            font-size: 15px;
+        }
+        .title-panel{
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        .masthead .btn-get-started{
+            height: 30px;
+            width: 180px;
+        }
+        .carousel-caption{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .carousel-indicators li{
+            display: none;
         }
 }

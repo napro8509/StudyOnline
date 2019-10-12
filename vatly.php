@@ -3,15 +3,12 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css"><style>
-#footer{
-    position: absolute;
-    bottom: 0px;
-}
-body{
-    background: linear-gradient(rgb(0, 70, 127), rgb(165, 204, 130));
+footer{
+    position: absolute!important;
+    bottom: 0px!important;
 }
 </style>
-<div class= "container pad-30">
+<div class= "container pad-30" id="vatly">
 <a class="click-vatly" value="https://phet.colorado.edu/sims/html/under-pressure/latest/under-pressure_vi.html" name="select-img">Áp suất</a></br>
 
 <a class="click-vatly" value="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_vi.html" name="select-img">Bong bóng và tĩnh điện</a></br>

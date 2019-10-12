@@ -222,6 +222,19 @@ height: 40px;
 
 /*end style animation*/
 /*style general*/
+.carousel-caption{
+    background-color:#e7f3e7c2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left:0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #075c6f;
+    text-align: center;
+    width: 100%;
+}
 .header-get-started{
     display: flex;
     justify-content: center;
@@ -263,6 +276,10 @@ height: 40px;
     right: 100%;
     height: 100%;
 }
+.selectDown{
+    width: 80%;
+    margin: auto;
+}
 .title-panel {
     font-size: 36px;
 }
@@ -282,6 +299,8 @@ height: 40px;
     width: 80%;
     font-weight: 700;
     padding: 3px 5px;
+    box-shadow: 0px 1px 8px 5px #999;
+
 }
 .selectDown {
     background: transparent!important;
@@ -1160,6 +1179,8 @@ top: 2px;
             border-radius: 50%;
             box-shadow: 4px 3px 17px 1px black;
             margin-right: 20px;
+            position: relative;
+            top: -11px;
         }
         .btn-logout{
             border:none
@@ -1448,6 +1469,17 @@ box-shadow: 0px 2px 8px 5px #ddd;
         align-items: center;
         cursor: pointer;
 }
+.masthead .btn-get-started{
+    height: 45px;
+    width: 180px;
+    font-size: 22px;
+}
+.styleModal .modal-btn-radius{
+    border-radius: 6px;
+}
+.styleModal .form-check{
+    padding-left: 0px;
+}
 #dialy .dialy-item-border{
         box-shadow: 0px 4px 12px 4px #999;
     border-radius: 6px;
@@ -1462,4 +1494,13 @@ box-shadow: 0px 2px 8px 5px #ddd;
 }
 .tree .projects img{
     box-shadow: 0px 5px 12px 5px #999!important;
+}
+.styleModal .modal-body{
+    padding: 0px;
+}
+.styleModal .nav-tabs{
+    padding: 10px 20px 0px 20px;
+}
+.styleModal form{
+    margin-top: 30px;
 }
