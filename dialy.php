@@ -4,20 +4,18 @@
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">                                
 <!-- Templatemo style -->      
-    <div class="container-fluid pad-30">
+    <div class="container-fluid pad-30" id="dialy">
         <div class ="row">
             <div class="container templatemo-welcome" id="templatemo-welcome">
             <div class="container">
                 <div class = "row">
-                    <div class = "col-sm-8">
+                    <div class = "col-sm-8 text-center-mobile">
                     <div class="templatemo-slogan">
                         <span class="txt_darkgrey">Ôn Luyện </span><span class="txt_orange">Dia Ly</span>
                         <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
                     </div>
                     </div>
-                    <div class = "col-sm-4 info-teacher" data-aos="fade-right"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-sine">
+                    <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
                         <div class = "row">
                             <div class = "col-3 col-sm-3">
                                 <img src = "./site/img/img_avatar2.png">
@@ -35,10 +33,10 @@
             </div>
             </div>
         </div>
-        <div class = "row d-none d-sm-block">
+        <div class = "row">
             <div class = "container">
                 <div class="row pad-60">
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 dialy-item-border">
                         
                             <img src="./site/img/tm-500x250-01.jpg" alt="Image" class="img-fluid">
                         
@@ -53,7 +51,7 @@
                             </div>
                         
                     </div>                   
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 dialy-item-border">
 
                         
                             <img src="./site/img/tm-500x250-02.jpg" alt="Image" class="img-fluid">
@@ -70,7 +68,7 @@
                             </div>
                                                                         
                     </div>                   
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 dialy-item-border">
                         
                             <img src="./site/img/tm-500x250-03.jpg" alt="Image" class="img-fluid">
                         
@@ -84,10 +82,9 @@
                                 </div> -->
                                     
                             </div>
-                                            
-                        
+                                                                   
                     </div>
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 dialy-item-border">
 
                         
                             <img src="./site/img/cacnganhkinhte.png" alt="Image" class="img-fluid">
@@ -104,7 +101,7 @@
                             </div>
                                                                     
                     </div>                    
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 dialy-item-border">
                         
                             <img src="./site/img/dialyvungkinhte.jpg" alt="Image" class="img-fluid">
                         
@@ -118,10 +115,9 @@
                                 </div> -->
                                     
                             </div>
-                                            
-                        
+                                                          
                     </div>
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 dialy-item-border">
                         
                             <img src="./site/img/kinang.jpg" alt="Image" class="img-fluid">
                         
@@ -135,55 +131,11 @@
                                 </div> -->
                                     
                             </div>
-                                            
-                        
+                                                                  
                     </div>
                 </div>        
          
             </div>
-        </div>
-        <div class="row d-block d-sm-none pad-30" >
-            <div id="slide-dialy" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ul class="carousel-indicators">
-                    <li data-target="#slide-dialy" data-slide-to="0" class="active"></li>
-                    <li data-target="#slide-dialy" data-slide-to="1"></li>
-                    <li data-target="#slide-dialy" data-slide-to="2"></li>
-                    <li data-target="#slide-dialy" data-slide-to="3"></li>
-                    <li data-target="#slide-dialy" data-slide-to="4"></li>
-                    <li data-target="#slide-dialy" data-slide-to="5"></li>
-                  </ul>
-                  
-                  <!-- The slideshow -->
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./site/img/tm-500x250-01.jpg" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./site/img/dialyvungkinhte.jpg" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="carousel-item">
-                     <img src="./site/img/kinang.jpg" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./site/img/cacnganhkinhte.png" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./site/img/tm-500x250-02.jpg" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="carousel-item">
-                     <img src="./site/img/tm-500x250-03.jpg" alt="Image" class="img-fluid">
-                    </div>
-                  </div>
-                  
-                  <!-- Left and right controls -->
-                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                  </a>
-                  <a class="carousel-control-next" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                  </a>
-                </div>
         </div>
     </div>
 

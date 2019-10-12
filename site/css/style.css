@@ -184,6 +184,21 @@ height: 40px;
     background-position: left bottom;
     color: #4EA7FF;
 }
+.btn-background-blue-gradian {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #00a99d;
+    color: #fff;
+    background: linear-gradient(to right, #ffffff 50%, #00a99d 50%);
+    padding: 8px 20px;
+    background-size: 250% 150%;
+    background-position: right bottom;
+    transition: all 0.3s ease;
+}
+.btn-background-blue-gradian:hover {
+    background-position: left bottom;
+    color: #00a99d;
+}
 .btn-background-white-blue {
     font-size: 16px;
     font-weight: 500;
@@ -225,8 +240,8 @@ height: 40px;
 .background-gray{
     background-color: #ddd!important;
 }
-.modal-header{
-    background-color: #be1c2f;
+#dangnhap .modal-header{
+    background: linear-gradient(315deg, #075c6f 0%, #00a99d 74%);
 }
 .text-upper-case{
 	text-transform:uppercase;
@@ -465,8 +480,10 @@ height: 40px;
 	background-color: #46B7FC;
 }
 .vao-hoc, .luyen-de, .luyen-tap{
-	border-radius: 0.25rem;
-	padding: 20px;
+    box-shadow: 0px 2px 8px 5px #ddd;
+    border-radius: 6px;
+    padding: 20px 30px;
+
 }
 .luyen-tap img, .vao-hoc img, .luyen-de img{
 	width: 80px;
@@ -1271,7 +1288,7 @@ top: 2px;
 #tryExam .panel-left {
   flex: 0 0 auto;
   /* only manually resize */
-  width: 50%;
+  width: 65%;
   min-width: 150px;
   white-space: nowrap;
   color: white;
@@ -1295,7 +1312,7 @@ top: 2px;
   flex: 1 1 auto;
   /* resizable */
   padding: 30px 20px 30px 50px;
-  width: 50%;
+  width: 25%;
   min-width: 150px;
   background: #fafbfb;
    height: calc(100vh - 65px);
@@ -1393,3 +1410,56 @@ top: 2px;
  .quiz-container form{
     margin: 0;
  }
+ #addLesson .img-general, #addLesson .do-homework, #addLesson .border-comment, #addLesson .border-col{
+box-shadow: 0px 2px 8px 5px #ddd;
+    border-radius: 6px;
+    padding: 20px 30px;
+ }
+ #addLesson .do-homework{
+        max-width: 63.666666%;
+    margin-right: 19px;
+    margin-left: 15px;
+
+ }
+  #addLesson .border-comment{
+    max-width: 63.666666%;
+    margin-left: 15px;
+  }
+ .add-lesson-border{
+    box-shadow: 0px 2px 8px 5px #ddd;
+    border-radius: 6px;
+ }
+ .add-lesson-pad{
+    padding: 20px 15px;
+ }
+
+ input.add-lesson-input{
+    margin-bottom: 0px;
+ }
+ footer.footer{
+        padding-top: 3rem;
+    padding-bottom: 3rem;
+ }
+.btn-get-started{
+        border-radius: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}
+#dialy .dialy-item-border{
+        box-shadow: 0px 4px 12px 4px #999;
+    border-radius: 6px;
+    padding: 0;
+        max-width: 31.333333%;
+    margin: auto;
+    margin-bottom: 22px;
+}
+#dialy .tm-description-box{
+
+    padding: 10px 0px;
+}
+.tree .projects img{
+    box-shadow: 0px 5px 12px 5px #999!important;
+}

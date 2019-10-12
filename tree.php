@@ -8,13 +8,13 @@
 <div class="templatemo-welcome templatemo-welcome-tree pad-30" id="templatemo-welcome">
         <div class="container">
             <div class = "row">
-                <div class = "col-sm-8">
+                <div class = "col-sm-8 text-center-mobile">
                 <div class="templatemo-slogan">
                     <span class="txt_darkgrey">Ôn Luyện </span><span class="txt_orange">Tieng Anh</span>
                     <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
                 </div>
                 </div>
-                <div class = "col-sm-4 info-teacher" data-aos="fade-right"
+                <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right"
      data-aos-offset="500"
      data-aos-easing="ease-in-sine">
                     <div class = "row">
@@ -35,7 +35,7 @@
     </div>
 
 
-<div id="second-section2">
+<div id="second-section2" class="tree">
         <div class="container">
             <div class="row">
                 <div class="triangle"></div>

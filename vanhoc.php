@@ -3,19 +3,17 @@
 <?php include("headerMore.php"); ?>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
-<div class = "container-fluid pad-30 no-pad-l-r">
+<div class = "container-fluid pad-30 no-pad-l-r" id="vanhoc">
     <div class="templatemo-welcome" id="templatemo-welcome">
         <div class="container">
             <div class = "row">
-                <div class = "col-sm-8">
-                <div class="templatemo-slogan">
-                    <span class="txt_darkgrey">Ôn Luyện </span><span class="txt_orange">Ngữ Văn</span>
-                    <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
+                <div class = "col-sm-8 text-center-mobile">
+                    <div class="templatemo-slogan">
+                        <span class="txt_darkgrey">Ôn Luyện </span><span class="txt_orange">Ngữ Văn</span>
+                        <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
+                    </div>
                 </div>
-                </div>
-                <div class = "col-sm-4 info-teacher" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class = "row">
                         <div class = "col-3">
                             <img src = "./site/img/img_avatar2.png">
