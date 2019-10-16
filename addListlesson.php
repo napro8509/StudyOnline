@@ -140,12 +140,31 @@
 												</a>
 											</div>
 											<div id="collapse1" class="card-body" style="display: none;">
+<!-- 												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
 												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
 												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
 												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-
+												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p> -->
+												<div class="row detail-lesson">
+													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+												</div>
+												<div class="row detail-lesson">
+													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+													<div class="col-3"><span class="status-card-lesson status-not-yet">Chưa học</span></div>
+												</div>
+												<div class="row detail-lesson">
+													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+												</div>
+												<div class="row detail-lesson">
+													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+												</div>
+												<div class="row detail-lesson">
+													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+												</div>			
 											</div>
 											<div class= "row" style ="display: flex; justify-content: center;">
 												<button class="btn-background-green btn-border"><img class="mrgr-10-w" src="./site/img/h10.png">Đánh Giá Chuyên Đề HH01</button>
@@ -234,13 +253,13 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		  $(".toggle1").click(function(){
-		    $("#collapse1").toggle("slow");
+		    $("#collapse1").toggle();
 		  });
   		  $(".toggle2").click(function(){
-		    $("#collapse2").toggle("slow");
+		    $("#collapse2").toggle();
 		  });
   		  $(".toggle3").click(function(){
-		    $("#collapse3").toggle("slow");
+		    $("#collapse3").toggle();
 		  });
 	});
 </script>

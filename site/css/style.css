@@ -64,7 +64,53 @@ body{
     background-color: #EFEFEF;
     }
 
-
+/*form login*/
+.group-buttons{
+        display: flex;
+    justify-content: flex-end;
+}
+.social-media, .media-button{
+        display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.other-options{
+    font-weight: 300;
+    font-size: 15px;
+}
+.media-icon.facebook {
+    background-color: #3b5998;
+    margin-right: 5px;
+}
+.media-icon {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    padding: 20px;
+    margin: auto 7px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(196,196,196,1);
+    -moz-box-shadow: 0px 0px 13px 3px rgba(196,196,196,1);
+    box-shadow: 0px 0px 13px 3px rgba(196,196,196,1);
+}
+.media-icon.google {
+    background-color: #0f9d58;
+}
+/*end login*/
 /*style size general*/
 .mrgr-10{
     margin-right: 10px;
@@ -84,7 +130,7 @@ body{
 }
 .box-shadow{
     border-radius: 10px;
-    box-shadow: 8px 19px 12px 2px #999;
+    box-shadow: 0px 0px 15px 4px #999;
     width: 100%;
 }
 .padl-80{
@@ -246,6 +292,9 @@ height: 40px;
 }
 .masthead-more{
     height: 65px!important;
+        position: sticky;
+    top: 0;
+    z-index: 560;
 }
 .sidebar-nav>.sidebar-brand{
     height: 64px!important;
@@ -1206,7 +1255,7 @@ top: 2px;
             background-image: linear-gradient(315deg, #075c6f 0%, #00a99d 74%);
         }
         #sidebar-wrapper{
-            z-index: 99;
+            z-index: 994;
         }
         .dropdown-menu{
             width: 100%;
@@ -1307,19 +1356,17 @@ top: 2px;
 }
 
 #tryExam .panel-left {
-  flex: 0 0 auto;
-  /* only manually resize */
-  width: 65%;
-  min-width: 150px;
-  white-space: nowrap;
-  color: white;
-   height: calc(100vh - 65px);
-
-  min-width: 10%;
-  max-width: 90%;
+    flex: 0 0 65%;
+    max-width: 65%;
+    min-width: 150px;
+    color: white;
+    height: calc(100vh - 65px);
+    box-sizing: border-box;
+            padding: 20px 0px 0px 0px;
+    margin: 0 auto;
 }
 
-#tryExam .splitter {
+/*#tryExam .splitter {
   flex: 0 0 auto;
   width: 18px;  
   background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/vsizegrip.png) center center no-repeat #eee;
@@ -1327,21 +1374,15 @@ top: 2px;
   cursor: col-resize;  
    height: calc(100vh - 65px);
 
-}
+}*/
 
 #tryExam .panel-right {
-  flex: 1 1 auto;
-  /* resizable */
-  padding: 30px 20px 30px 50px;
-  width: 25%;
-  min-width: 150px;
-  background: #fafbfb;
-   height: calc(100vh - 65px);
-
-  max-width: 90%;
-  min-width: 10%;
-  overflow-y: auto;
-  overflow-x: hidden;
+    flex: 0 0 35%;
+    max-width: 35%;
+    background: #fafbfb;
+    height: calc(100vh - 65px);
+        padding: 20px 0px 0px 0px;
+    margin: 0 auto;
 }
 
 #tryExam .answer-ratio table, #tryExam .answer-ratio tr.text-center{
@@ -1350,13 +1391,13 @@ top: 2px;
       padding: 5px;
 }
 #tryExam .answer-ratio td{
-    padding: 7px 5px;
+    padding: 0px;
 }
 .try-container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 28px;
+  margin-bottom: 0px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
@@ -1373,10 +1414,10 @@ top: 2px;
 }
 .try-checkmark {
   position: absolute;
-  top: -6px;
-  left: 15px;
-  height: 18px;
-  width: 18px;
+  top: -5px;
+  left: 7px;
+  height: 13px;
+  width: 13px;
   background-color: #fff;
   border-radius: 50%;
   border:1px solid #00a99d;
@@ -1414,7 +1455,7 @@ top: 2px;
     background: white;
 }*/
  #tryExam .answer-ratio td{
-    padding: 5px 0px;
+    padding: 0px 0px;
  }
  .tb-title{
     text-align: center;;
@@ -1496,11 +1537,60 @@ box-shadow: 0px 2px 8px 5px #ddd;
     box-shadow: 0px 5px 12px 5px #999!important;
 }
 .styleModal .modal-body{
-    padding: 0px;
+    padding: 20px 0px 30px 0;
 }
 .styleModal .nav-tabs{
     padding: 10px 20px 0px 20px;
 }
 .styleModal form{
     margin-top: 30px;
+}
+.quiz-container .w3-code{
+    padding: 26px;
+    margin-bottom: 30px;
+}
+.portfolio-item .caption .caption-content h2{
+        font-size: 1.5rem;
+}
+.portfolio-item .caption .caption-content p{
+    color: #fff;
+}
+.detail-lesson{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.status-card-lesson{
+    padding: 6px 12px;
+    
+    border-radius: 16px;
+}
+.status-not-yet{
+    background-color: #ccc;
+    color: #fff;
+}
+.status-learned{
+    background-color: #00a99d;
+    color: #fff;
+}
+.card-header{
+    cursor: pointer;
+}
+#tryExam td, #tryExam th{
+    border:1px solid;
+}
+.btn-napbai{
+    background-color: #fff;
+    border-radius: 6px;
+    border:1px solid #00a99d;
+    color: #00a99d;
+    font-weight: 600;
+    padding: 6px 25px;
+}
+.phan-de-thi{
+    font-weight: 600;
+    color: #00a99d;
+}
+.height-pdf{
+    height: 95%;
 }

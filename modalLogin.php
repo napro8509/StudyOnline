@@ -60,7 +60,27 @@
                                           </label>  -->
                                           <br> 
                                           <br> 
-                                          <button class="btn btn-background-blue-gradian modal-btn-radius" type="submit"> Đăng ký</button> 
+                                          <div class="row">
+                                            <div class="col-4">
+                                                <button class="btn-background-blue-gradian modal-btn-radius" type="submit"> Đăng ký</button> 
+                                            </div>
+                                            <div class="col-8 group-buttons">
+                                                <div class="row">
+                                                    <span class="social-media">
+                                                        <span class="other-options"> &nbsp;hoặc đăng nhập với&nbsp;</span>
+                                                        <span class="media-button">
+                                                            <a class="btn_fb_static trans" data-action="1" id="btnFBLogin">
+                                                                <span class="media-icon facebook"><i class="fab fa-facebook-f"></i></span>
+                                                            </a>
+                                                            <a class="btn_gplus_static trans" data-action="1" id="btnGPLogin">
+                                                                <span class="media-icon google"><i class="fab fa-google"></i></span>
+                                                            </a>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                          </div>
+
                                     </form> 
                                 </div> 
                               </div>
@@ -82,15 +102,35 @@
                                       <input class="form-check-input" type="checkbox" name="remember"> Remember me
                                   </label>
                               </div>
-                              <button type="submit" class="btn btn-background-blue-gradian modal-btn-radius">Submit</button>
+                              <div class="row">
+                                <div class="col-4">
+                                    <button type="submit" class="btn btn-background-blue-gradian modal-btn-radius">Submit</button>
+                                </div>
+                                <div class="col-8 group-buttons">
+                                    <div class="row">
+                                        <span class="social-media">
+                                            <span class="other-options"> &nbsp;hoặc đăng nhập với&nbsp;</span>
+                                            <span class="media-button">
+                                                <a class="btn_fb_static trans" data-action="1" id="btnFBLogin">
+                                                    <span class="media-icon facebook"><i class="fab fa-facebook-f"></i></span>
+                                                </a>
+                                                <a class="btn_gplus_static trans" data-action="1" id="btnGPLogin">
+                                                    <span class="media-icon google"><i class="fab fa-google"></i></span>
+                                                </a>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                              </div>
+
                           </form>
                         </div>
                       </div>
                   </div>
               </div>
-              <div class="modal-footer">
+<!--               <div class="modal-footer">
                   <button type="button" class="btn btn-background-blue-gradian modal-btn-radius" data-dismiss="modal">Close</button>
-              </div>
+              </div> -->
           </div>        
       </div>
     </div>    
