@@ -16,16 +16,7 @@
                     </div>
                     </div>
                     <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-                        <div class = "row">
-                            <div class = "col-3 col-sm-3">
-                                <img src = "./site/img/img_avatar2.png">
-                            </div>
-                            <div class = "col-9 col-sm-9">
-                                <h5 class = "name">Thai Thi Hoa</h5>
-                                <p class = "age">34 tuoi</p>
-                                <p class = "Mon">Ngu Van<p>
-                            </div>
-                        </div>
+                        <?php include("info-teacher.php"); ?>
 
                     </div>
                 </div>
@@ -43,7 +34,7 @@
                             <div class="tm-description-box">
                                 <th class="tm-description-text">
                                 </th>
-                                <a href="tree.php">Chuyên đề 1 : Địa lý khu vực và quốc gia</a>
+                                <a href="tree.php"><i class="fa fa-snowflake-o fa-small" aria-hidden="true"></i>Chuyên đề 1 : Địa lý khu vực và quốc gia</a>
                                 <!-- <div class="tm-flex-center">
                                     <a href="#" class="btn btn-default tm-normal-btn tm-blue-bordered-btn">Read</a>    
                                 </div> -->
@@ -60,7 +51,7 @@
                                 <th class="tm-description-text">
                                     
                                 </th>
-                                <a href="tree.php">Chuyên đề 2 : Địa lý tự nhiên</a>
+                                <a href="tree.php"><i class="fa fa-snowflake-o fa-small" aria-hidden="true"></i>Chuyên đề 2 : Địa lý tự nhiên</a>
                                 <!-- <div class="tm-flex-center">
                                     <a href="#" class="btn btn-default tm-normal-btn tm-gray-bordered-btn">Read</a>    
                                 </div> -->
@@ -76,7 +67,7 @@
                                 <th class="tm-description-text">
                                     
                                 </th>
-                                <a href="">Chuyên đề 3 : Địa lý dân cư</a>
+                                <a href=""><i class="fa fa-snowflake-o fa-small" aria-hidden="true"></i>Chuyên đề 3 : Địa lý dân cư</a>
                                 <!-- <div class="tm-flex-center">
                                     <a href="#" class="btn btn-default tm-normal-btn tm-green-bordered-btn">Read</a>    
                                 </div> -->
@@ -93,7 +84,7 @@
                                 <th class="tm-description-text">
                                     
                                 </th>
-                                <a href="">Chuyên đề 4 : Địa lý các ngành kinh tế</a>
+                                <a href=""><i class="fa fa-snowflake-o fa-small" aria-hidden="true"></i>Chuyên đề 4 : Địa lý các ngành kinh tế</a>
                                 <!-- <div class="tm-flex-center">
                                     <a href="#" class="btn btn-default tm-normal-btn tm-gray-bordered-btn">Read</a>    
                                 </div> -->
@@ -109,7 +100,7 @@
                                 <th class="tm-description-text">
                                     
                                 </th>
-                                <a href="">Chuyên đề 5 : Địa lý các vùng kinh tế</a>
+                                <a href=""><i class="fa fa-snowflake-o fa-small" aria-hidden="true"></i>Chuyên đề 5 : Địa lý các vùng kinh tế</a>
                                 <!-- <div class="tm-flex-center">
                                     <a href="#" class="btn btn-default tm-normal-btn tm-green-bordered-btn">Read</a>    
                                 </div> -->
@@ -125,7 +116,7 @@
                                 <th class="tm-description-text">
                                     
                                 </th>
-                                <a href="">Chuyên đề 6 : Kỹ năng địa lý</a>
+                                <a href=""><i class="fa fa-snowflake-o fa-small" aria-hidden="true"></i>Chuyên đề 6 : Kỹ năng địa lý</a>
                                 <!-- <div class="tm-flex-center">
                                     <a href="#" class="btn btn-default tm-normal-btn tm-green-bordered-btn">Read</a>    
                                 </div> -->

@@ -777,7 +777,7 @@ form {
 
 footer {
     width: 100%;
-    box-shadow: 0 8px 21px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: var(--box-shadow-style);
     border-top: 1px solid #ddd;
 }
 

@@ -109,7 +109,7 @@
                 <div class="carousel-caption">
                       <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
                       <div class="header-get-started">
-                        <a class="btn-primary btn-xl js-scroll-trigger btn-get-started btn-background-blue-gradian" data-toggle="modal" data-target="#dangnhap">Get Started</a>
+                        <a class="btn-xl js-scroll-trigger btn-get-started btn-style-general" data-toggle="modal" data-target="#dangnhap">Get Started</a>
                       </div>  
                 </div>
             </div>  
@@ -118,7 +118,7 @@
                 <div class="carousel-caption">
                     <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
                     <div class="header-get-started">
-                      <a class="btn-primary btn-xl js-scroll-trigger btn-get-started btn-background-blue-gradian" data-toggle="modal" data-target="#dangnhap">Get Started</a>
+                      <a class="btn-xl js-scroll-trigger btn-get-started btn-style-general" data-toggle="modal" data-target="#dangnhap">Get Started</a>
                   </div>  
                 </div>
             </div> 
@@ -127,7 +127,7 @@
                 <div class="carousel-caption">
                       <h1 class="mb-1 bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;">Ôn Thi THPT Quốc Gia</h1>
                       <div class="header-get-started">
-                        <a class="btn-primary btn-xl js-scroll-trigger btn-get-started btn-background-blue-gradian" data-toggle="modal" data-target="#dangnhap">Get Started</a>
+                        <a class="btn-xl js-scroll-trigger btn-get-started btn-style-general" data-toggle="modal" data-target="#dangnhap">Get Started</a>
                     </div>  
                 </div>
             </div> 

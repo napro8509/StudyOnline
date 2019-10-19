@@ -14,19 +14,8 @@
                     <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
                 </div>
                 </div>
-                <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-sine">
-                    <div class = "row">
-                        <div class = "col-3">
-                            <img src = "./site/img/img_avatar2.png">
-                        </div>
-                        <div class = "col-9">
-                            <h5 class = "name">Thai Thi Hoa</h5>
-                            <p class = "age">34 tuoi</p>
-                            <p class = "Mon">Ngu Van<p>
-                        </div>
-                    </div>
+                <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <?php include("info-teacher.php"); ?>
 
                 </div>
             </div>

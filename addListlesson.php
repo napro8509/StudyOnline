@@ -41,7 +41,7 @@
 				<div class="container add-lesson-border">
 					<div class="row add-lesson-pad">
 						<div class="col-sm-6 mr-b-10">
-							<span><img src="./site/img/IconList.png"></span>
+							<i class="fa fa-list-ul" aria-hidden="true"></i>
 							<span style="font-size: 22px;">Danh sách bài giảng</span>
 						</div>
 						<div class="col-sm-6">
@@ -133,84 +133,109 @@
 								<div class="container">
 									<div id="accordion" class="accordion">
 										<div class="card mb-0">
-											<div class="card-header toggle1">
+											<div class="card-header toggle1 js-card-header">
 												<img class ="img-fluid1 mrgr-10" src="./site/img/h1.png">
 												<a class="card-title text-upper-case color-organe">
 													HH00 - Giới thiệu chương trình Ôn thi THPT quốc gia môn Hóa học
 												</a>
-											</div>
-											<div id="collapse1" class="card-body" style="display: none;">
-<!-- 												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p> -->
-												<div class="row detail-lesson">
-													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
-													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+												<div id="collapse1" class="card-body js-card-body">
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-not-yet">Chưa học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>			
 												</div>
-												<div class="row detail-lesson">
-													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
-													<div class="col-3"><span class="status-card-lesson status-not-yet">Chưa học</span></div>
+												<div class= "row" style ="display: flex; justify-content: center;">
+													<a class="btn-background-green btn-border btn-style-general" href="#"><img class="mrgr-10-w" src="./site/img/h10.png">Đánh Giá Chuyên Đề HH01</a>
 												</div>
-												<div class="row detail-lesson">
-													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
-													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
-												</div>
-												<div class="row detail-lesson">
-													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
-													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
-												</div>
-												<div class="row detail-lesson">
-													<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
-													<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
-												</div>			
-											</div>
-											<div class= "row" style ="display: flex; justify-content: center;">
-												<button class="btn-background-green btn-border"><img class="mrgr-10-w" src="./site/img/h10.png">Đánh Giá Chuyên Đề HH01</button>
 											</div>
 											
 									<br>
 									<hr>
 
-											<div class="card-header toggle2">
+											<div class="card-header toggle2 js-card-header">
 												<img class ="img-fluid1 mrgr-10" src="./site/img/h2.png">
 												<a class="card-title text-upper-case color-organe">
 													HH01-este-lipit
 												</a>
+												<div id="collapse1" class="card-body js-card-body">
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-not-yet">Chưa học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>			
+												</div>
+												<div class= "row" style ="display: flex; justify-content: center;">
+													<a class="btn-background-green btn-border btn-style-general" href="#"><img class="mrgr-10-w" src="./site/img/h10.png">Đánh Giá Chuyên Đề HH01</a>
+												</div>
 											</div>
-											<div id="collapse2" class="card-body" style="display: none;">
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
 
-											</div>
-											<div class= "row" style ="display: flex; justify-content: center;">
-												<button class="btn-background-green  btn-border"><img src="./site/img/h10.png" class="mrgr-10-w">Đánh Giá Chuyên Đề HH01</button>
-											</div>
 									<br>
 									<hr>
-											<div class="card-header toggle3">
+											<div class="card-header toggle3 js-card-header">
 												<img class ="img-fluid1 mrgr-10" src="./site/img/h3.png">
 												<a class="card-title text-upper-case color-organe">
 													HH02-cacbonhidrat
-												</a>											
+												</a>
+												<div id="collapse1" class="card-body js-card-body">
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-not-yet">Chưa học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>
+													<div class="row detail-lesson">
+														<div class="col-9"><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</div>
+														<div class="col-3"><span class="status-card-lesson status-learned">đã học</span></div>
+													</div>			
+												</div>
+												<div class= "row" style ="display: flex; justify-content: center;">
+													<a class="btn-background-green btn-border btn-style-general" href="#"><img class="mrgr-10-w" src="./site/img/h10.png">Đánh Giá Chuyên Đề HH01</a>
+												</div>											
 											</div>
 											
-											<div id="collapse3" class="card-body" style="display: none;">
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>
-												<p><img src="./site/img/img-10.png" style="width: 30px;margin-right: 10px;margin-bottom: 10px;">bài học 1</p>											
-											</div>
-											<div class= "row" style ="display: flex; justify-content: center;">
-												<button class="btn-background-green btn-border"><img src="./site/img/h10.png" class="mrgr-10-w">Đánh Giá Chuyên Đề HH01</button>
-											</div>
-								<br>
-								<hr>
+									<br>
+									<hr>
 										</div>
 									</div>
 								</div>							
@@ -224,7 +249,7 @@
 			<div class="col-sm-4 add-lesson-border add-lesson-pad d-none d-sm-block">
 				<div class="block-buy">
 						<div class="header">
-							<img src="./site/img/icon-on-thi-buy.png">
+							<i class="fa fa-cubes" aria-hidden="true"></i>
 							<span style="font-size: 20px">Khóa Ôn thi THPT Quốc Gia môn Hóa Học</span>
 						</div>
 						<div class="teacher-info">
@@ -232,7 +257,7 @@
 							<p>Thầy <span class="teacherName">Trần Hoàng Phi</span></p>
 							
 								<p>Học phí: <span style="color: red;text-decoration: line-through;">499K</span></p>
-								<p>Ưu đãi: <span style="color: #00a99d">100K</span></p>
+								<p>Ưu đãi: <span style="color: var(--bg-color)">100K</span></p>
 							
 							<button class="btn-buy" onclick="gotoHocPhi(5928805940592640, 13)">
 								<i class="fa fa-forward" aria-hidden="true"></i>
@@ -252,15 +277,29 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		  $(".toggle1").click(function(){
-		    $("#collapse1").toggle();
-		  });
-  		  $(".toggle2").click(function(){
-		    $("#collapse2").toggle();
-		  });
-  		  $(".toggle3").click(function(){
-		    $("#collapse3").toggle();
-		  });
+	  $('.js-card-header').click(function(){
+	  	var findCard = $('.js-card-header');
+	  	var _this = $(this);
+/*	  			findCard.find('.js-card-body').removeClass('open');
+	  			$(this).find('.js-card-body').addClass('open');
+	  	$('.js-card-header').find('.js-card-body').slideDown(400, function(){
+	  			$(this).addClass('open');
+	  	});*/
+	  	if(findCard.find('.js-card-body').hasClass('open')){
+	  		$(findCard.find('.js-card-body')).slideUp(400, function(){
+				$(findCard.find('.js-card-body')).removeClass('open');
+	  		});
+	  		
+	  	}
+	  	else{
+	  		_this.find('.js-card-body').slideDown(400, function(){
+	  			_this.find('.js-card-body').addClass('open');
+	  	});
+	  	}
+
+			
+	  });
+		  
 	});
 </script>
 

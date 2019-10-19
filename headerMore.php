@@ -47,13 +47,11 @@
   <!-- Header -->
   <header class="masthead-more d-flex">
   		<div class="header-get-started">
-				<a class="btn-primary btn-xl js-scroll-trigger btn-get-started btn-background-blue-gradian" data-toggle="modal" data-target="#dangnhap">Get Started</a>
-		</div>                    
-<!-- 	<a class="btn btn-primary btn-xl js-scroll-trigger" style="visibility: visible;" data-toggle="modal" data-target="#logIn">Đăng Nhập</a>
-     
-     <a class="btn btn-primary btn-xl js-scroll-trigger" style="visibility: visible;" data-toggle="modal" data-target="#signIn">Đăng Ký</a> -->
+				<a class="btn-xl js-scroll-trigger btn-get-started-thua btn-background-blue-gradian-thua btn-style-general" data-toggle="modal" data-target="#dangnhap">Get Started</a>
+		  </div>                    
     <div class="container text-center my-auto">
-      <h3 class="mb-1">Ôn Thi THPT Quốc Gia</h3>
+      <span><i class="fa fa-empire" aria-hidden="true"></i></span>
+      <span class="mb-1">Ôn Thi THPT Quốc Gia<span>
     </div>
     <div class="overlay"></div>
   </header>

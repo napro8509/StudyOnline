@@ -3,12 +3,24 @@
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 }
+:root {
+    --border-color:#e4e9eb;
+    --bg-color:#4fbd60;
+    --bg:#fafbfb;
+    --text-small-color:#999;
+    --text-title-color:#30333a;
+    --box-shadow-style: 1px 2px 9px 1px #CCC;
+    --bg-menu:#30333a;
+    --bg-footer: #f6f8f9;
+    --bg-big-color:#41a156;
+}
 a{
     text-decoration: none;
-    color: #999;
+    color: var(--text-small-color);
 }
 a:hover{
     text-decoration: none;
+    color:#41a156;
 }
 a.btn{
 	text-decoration: none;
@@ -20,14 +32,22 @@ p{
 }
 span{
     margin-right: 5px;
-    color: #999;
 }
 body{
 	font-size: 17px;
 	margin:0px;
-	color: black;
+	color: var(--text-title-color);
 	overflow-x: hidden;
     font-family: ProximaNova-Regular!important;   
+    background:var(--bg);
+}
+.fa{
+    color: var(--bg-color);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-anchor{
+    font-size: 20px;
 }
 .no-pad-l-r{
     padding-left: 0px;
@@ -37,10 +57,10 @@ body{
     background: linear-gradient(rgb(0, 70, 127), rgb(165, 204, 130));
 }
 .bg-gra-2{
-    background: linear-gradient(rgb(0, 70, 127), rgb(165, 204, 130));
+    background: linear-gradient(rgb(243, 102, 11), rgb(224, 200, 29));
 }
 .bg-gra-3{
-    background: linear-gradient(rgb(255, 224, 0), rgb(121, 159, 12));
+    background: linear-gradient(rgb(255, 224, 0), rgb(59, 113, 9));
 }
 .color-title{
     color: #495057;
@@ -68,6 +88,24 @@ body{
 .group-buttons{
         display: flex;
     justify-content: flex-end;
+}
+.btn-style-general{
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #F1F3F4;
+    padding: 6px 20px;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-style-general:hover{
+    background: #41a156;
+    color: #fff;
+    text-decoration: none;
 }
 .social-media, .media-button{
         display: -webkit-box;
@@ -130,7 +168,7 @@ body{
 }
 .box-shadow{
     border-radius: 10px;
-    box-shadow: 0px 0px 15px 4px #999;
+    box-shadow:var(--box-shadow-style);
     width: 100%;
 }
 .padl-80{
@@ -144,12 +182,12 @@ body{
 
 /*style animation*/
 .btn-background-green{
-font-size: 16px;
+/*font-size: 16px;
 font-weight: 500;
-background: #00a99d;
+background: var(--bg-color);
 border:none;
 color:#fff;
-height: 40px;
+height: 40px;*/
 }
 .btn-background-red {
     font-size: 16px;
@@ -167,38 +205,27 @@ height: 40px;
     color: #BE1C2F;
 }
 .btn-background-green {
-    font-size: 16px;
+/*    font-size: 16px;
     font-weight: 500;
-    border: 1px solid #00a99d;
+    border: 1px solid var(--bg-color);
     color: #fff;
-    background: linear-gradient(to right, #ffffff 50%, #00a99d 50%);
+    background: linear-gradient(to right, #ffffff 50%, var(--bg-color) 50%);
     padding: 8px 20px;
     background-size: 250% 150%;
     background-position: right bottom;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;*/
 }
 .btn-background-green:hover {
-    background-position: left bottom;
-    color: #00a99d;
+/*    background-position: left bottom;
+    color: var(--bg-color);*/
 }
 .btn-background-blue-bold {
-    font-size: 16px;
-    padding: 8px 20px;
-        background-color: #f2cf43;
-    background-image: linear-gradient(315deg, #f2cf43 0%, #19a186 74%);
-    color: #fff;
+
 }
 .btn-background-blue-bold:hover {
-    background-position: left bottom;
-    color: #203f66;
+
 }
 .btn-background-blue-bold-white {
-    font-size: 16px;
-    padding: 8px 20px;
-    background-color: #7f5a83;
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-    color: #fff;
-
 }
 .btn-background-white {
     font-size: 16px;
@@ -233,9 +260,9 @@ height: 40px;
 .btn-background-blue-gradian {
     font-size: 16px;
     font-weight: 500;
-    border: 1px solid #00a99d;
+    border: 1px solid var(--bg-color);
     color: #fff;
-    background: linear-gradient(to right, #ffffff 50%, #00a99d 50%);
+    background: linear-gradient(to right, #ffffff 50%, var(--bg-color) 50%);
     padding: 8px 20px;
     background-size: 250% 150%;
     background-position: right bottom;
@@ -243,7 +270,7 @@ height: 40px;
 }
 .btn-background-blue-gradian:hover {
     background-position: left bottom;
-    color: #00a99d;
+    color: var(--bg-color);
 }
 .btn-background-white-blue {
     font-size: 16px;
@@ -261,9 +288,10 @@ height: 40px;
     color: #fff;
 }
 .btn-border{
-    border-radius: 20px;
+/*    border-radius: 20px;*/
     width: 50%;
-    padding: 5px 5px !important;
+    text-align: center;
+/*    padding: 5px 5px !important;*/
 }
 
 /*end style animation*/
@@ -277,7 +305,7 @@ height: 40px;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 50px;
-    color: #075c6f;
+    color: var(--bg-big-color);
     text-align: center;
     width: 100%;
 }
@@ -303,7 +331,7 @@ height: 40px;
     background-color: #ddd!important;
 }
 #dangnhap .modal-header{
-    background: linear-gradient(315deg, #075c6f 0%, #00a99d 74%);
+    background: linear-gradient(315deg, #097722 0%, var(--bg-color) 74%);
 }
 .text-upper-case{
 	text-transform:uppercase;
@@ -335,11 +363,20 @@ height: 40px;
 .line-main {
     display: block;
     margin: 20px auto;
-    background-image: url(../img/main-line-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 10px;
+    height: 3px;
     width: 70px;
+    background: var(--bg-color);
+}
+.choosen-courses{
+    border-top: 1px solid var(--border-color);
+}
+.choosen-courses .table td, .table th{
+    border-top: none;
+}
+.choosen-courses tr:last-child{
+    border-top: 1px solid var(--border-color);
 }
 .title-q {
     color: #fff;
@@ -492,7 +529,7 @@ height: 40px;
     left: 2px;
     height: 94px;
     width: 94px;
-    color: #00a99d;
+    color: var(--bg-color);
     text-align: center;
     line-height: 95px;
     font-weight: 400;
@@ -515,9 +552,14 @@ height: 40px;
 }
 .text-search{
     width: 90%;
-    border-radius: 60px;
+    border-radius: 6px;
     border: 1px solid #999;
     padding: 5px 15px;
+}
+.text-search:focus{
+    border: 2px solid var(--bg-color);
+    outline: none;
+    box-shadow: none;
 }
 .container-header-menu{
 	border-top:1px solid #999;
@@ -528,12 +570,23 @@ height: 40px;
 	position: relative;
 	left: -28px;
 }
+.add-lesson-pad .fa-search{
+        position: relative;
+    left: -32px;
+    top: 2px;
+    color: #999;
+    cursor: pointer;
+    font-size: 18px;
+}
 .navbar-light .navbar-nav .nav-link{
     padding-left: 0px!important;
     padding-right: 30px!important;
 }
 .mdl-radio__label {
-    color: #00a99d;
+    color: var(--bg-color);
+}
+.quiz-container .mdl-radio__label{
+    color: var(--text-title-color);
 }
 /*style general*/
 
@@ -548,7 +601,7 @@ height: 40px;
 	background-color: #46B7FC;
 }
 .vao-hoc, .luyen-de, .luyen-tap{
-    box-shadow: 0px 2px 8px 5px #ddd;
+    box-shadow: var(--box-shadow-style);
     border-radius: 6px;
     padding: 20px 30px;
 
@@ -556,6 +609,7 @@ height: 40px;
 .luyen-tap img, .vao-hoc img, .luyen-de img{
 	width: 80px;
 	height: 80px;
+    margin-top: 15px;
 }
 .intro-learn .row-intro-learn{
 	padding: 10px;
@@ -564,13 +618,13 @@ height: 40px;
 /*end content*/
 /*collapse style*/
 .accordion .card-header:after {
-    font-family: 'FontAwesome';  
+/*    font-family: 'FontAwesome';  
     content: "\f068";
-    float: right; 
+    float: right; */
 }
 .accordion .card-header.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\f067"; 
+/*     symbol for "collapsed" panels 
+    content: "\f067"; */
 }
 .card{
 	border:none!important;
@@ -599,8 +653,8 @@ height: 40px;
     float: left;
 }
 ul.nav-wizard {
-    background-color: #00a99d;
-    border: 1px solid #00a99d;
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
     color: #fff!important;
     position: relative;
     height: 100px;
@@ -609,7 +663,7 @@ ul.nav-wizard {
     width: 100%;
     height: 50%;
     border-radius: 20px;
-    background: #00a99d;
+    background: var(--bg-color);
     text-align: center;
     color: white;
     padding: 10px;
@@ -648,7 +702,7 @@ ul.nav-wizard li a {
     padding: 0;
 }
 .btn-next-step {
-    background: #00a99d;
+    background: var(--bg-color);
     border: 0;
     font-size: 17px;
     padding: 6px 10px;
@@ -657,14 +711,14 @@ ul.nav-wizard li a {
     margin-bottom: 20px;
 }
 .subject_new_style {
-    border: 1px solid #00a99d;
+    border: 1px solid var(--bg-color);
     border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70px;
     font-weight: bold;
-    color: #00a99d;
+    color: var(--bg-color);
     cursor: pointer;
     text-align: center;
 }
@@ -701,17 +755,22 @@ ul.nav-wizard li a {
     border-radius: 60px;
     width: 18%;
 }
+#exampleFormControlTextarea1:focus{
+    border: 2px solid var(--bg-color)!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
 
 /*style lesson*/
 .cirle {
     width: 70px;
     height: 70px;
-    border: 1px solid #00a99d;
+    border: 1px solid var(--bg-color);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #00a99d; 
+    color: var(--bg-color); 
     margin: 0 auto;
     margin-bottom: 15px;
     box-shadow: 1px 4px 6px 2px #999;
@@ -749,8 +808,8 @@ ul.nav-wizard li a {
     font-weight: bold;
 }
 .btn-lesson{
-    border-radius: 50px;
-    font-size: 12px;
+/*    border-radius: 50px;
+    font-size: 12px;*/
     width: 180px;
 }
 .text-title{
@@ -774,7 +833,7 @@ ul.nav-wizard li a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: #00a99d;
+    color: var(--bg-color);
 }
 .video-panel{
     background-size: 100%;
@@ -804,6 +863,7 @@ ul.nav-wizard li a {
 .info-teacher img{
     max-width: 100%;
     border-radius: 10px;
+    box-shadow: var(--box-shadow-style);
 }
 /*end style van hoc*/
 /*footer*/
@@ -821,16 +881,22 @@ ul.nav-wizard li a {
 }
 
 .title{
-    color: #999;
+    color: var(--text-title-color);
     font-weight: bold;
+    
 }
-
+.mb-1, .my-1{
+    font-size: 25px!important;
+}
+.fa-empire{
+    color: #fff;
+}
 .templatemo-service-item {
     background: white;
     margin: auto;
     margin-top: 5%;
     padding: 20px 50px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: var(--box-shadow-style);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
   
@@ -839,7 +905,7 @@ ul.nav-wizard li a {
     border-bottom-left-radius: 10px;
     animation-name: example;
     animation-duration: 0.25s;
-    border-left: 8px solid #f29d5f;
+    border-left: 8px solid var(--border-color);
     box-shadow: 0 8px 21px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border-radius: 55px 0 0 55px;
 }
@@ -848,7 +914,7 @@ ul.nav-wizard li a {
     border-bottom-left-radius: 10px;
     animation-name: example;
     animation-duration: 0.25s;
-    border-left: 8px solid #f29d5f;
+    border-left: 8px solid var(--border-color);
     box-shadow: 0 8px 21px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border-radius: 0px;
 }
@@ -857,7 +923,7 @@ ul.nav-wizard li a {
     border-bottom-left-radius: 10px;
     animation-name: example;
     animation-duration: 0.25s;
-    border-left: 8px solid #f29d5f;
+    border-left: 8px solid var(--border-color);
     box-shadow: 0 8px 21px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border-radius: 0px 55px 55px 0px;
 }
@@ -901,16 +967,16 @@ ul.nav-wizard li a {
 /*style animation*/
 /*style new header-more*/
 .masthead-more{
-    background-color: #ffbf1a;
-    background: linear-gradient(315deg, #075c6f 0%, #00a99d 74%);
+    background-color: var(--bg-color);
+    background: linear-gradient(315deg, #097722 0%, var(--bg-color) 74%);
     width: 100%;
     height: 140px;
-    box-shadow: 0 8px 21px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: var(--box-shadow-style);
     color: #fff;
 }
 .js-scroll-trigger{
     background-color: #075c6f; 
-    background-image: linear-gradient(315deg, #075c6f 0%, #0082a0 74%);
+    background-image: linear-gradient(315deg, #4fbd60 0%, #41a156 74%);
     box-shadow: 0 18px 8px -8px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .border-bg{
@@ -952,13 +1018,13 @@ background: linear-gradient(to right, rgb(11, 72, 107), rgb(245, 98, 23));
 /* Create a custom radio button */
 .checkmark {
   position: absolute;
-  top: 7px;
+  top: 3px;
   left: 0;
   height: 18px;
   width: 18px;
   background-color: #fff;
   border-radius: 50%;
-  border:1px solid #00a99d;
+  border:1px solid var(--bg-color);
 }
 
 /* On mouse-over, add a grey background color */
@@ -968,7 +1034,7 @@ background: linear-gradient(to right, rgb(11, 72, 107), rgb(245, 98, 23));
 
 /* When the radio button is checked, add a blue background */
 .container-btn input:checked ~ .checkmark {
-  background-color: #00a99d;
+  background-color: var(--bg-color);
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -1017,12 +1083,12 @@ top: 4px;
 /* Create a custom checkbox */
 .checkmark1 {
   position: absolute;
-  top: 7px;
+  top: 3px;
   left: 0;
   height: 18px;
   width: 18px;
   background-color: #fff;
-  border:1px solid #00a99d;
+  border:1px solid var(--bg-color);
 }
 .form-check-1{
     padding-left: 0!important;
@@ -1034,7 +1100,7 @@ top: 4px;
 
 /* When the checkbox is checked, add a blue background */
 .container-btn1 input:checked ~ .checkmark1 {
-  background-color: #00a99d;
+  background-color: var(--bg-color);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -1112,9 +1178,9 @@ top: 2px;
             padding-top: 0.5rem;
         }
         .lesson-btn-title{
-            border: 1px solid #00a99d;
+            border: 1px solid var(--bg-color);
             background: white;
-            color: #00a99d;
+            color: var(--bg-color);
             position: absolute;
             left: -60px;
             top: -10px;
@@ -1130,8 +1196,7 @@ top: 2px;
             margin-right: 10px;
         }
         .fa-square-yeu, .fa-square-tb, .fa-square-kha, .fa-square-gioi{
-            width: 10px;
-            height: 10px;
+            font-size: 18px;
             margin-right: 10px;
         }
         .fa-square-yeu{
@@ -1146,8 +1211,17 @@ top: 2px;
         .fa-square-gioi{
             color: #31B404;
         }
+        .fa-question-circle{
+            font-size: 30px;
+            color: var(--bg-color);
+            margin-right: 10px;
+        }
+        .fa-small{
+            font-size: 18px;
+            color: #097722;
+        }
         .img-general-baigiang{
-            color: #999;
+            color: var(--text-title-color)!important;
             font-weight: 600;
             font-size: 20px;
             margin-bottom: 10px;
@@ -1164,7 +1238,7 @@ top: 2px;
 
         }
         .lesson-img .fa-folder{
-            color: #00a99d;
+            color: var(--bg-color);
             margin-right: 20px;
         }
         .lesson-img a{
@@ -1172,6 +1246,11 @@ top: 2px;
         }
         .comment-title{
             font-size: 25px;
+        }
+        .comment-user .fa-comments{
+            margin-right: 10px;
+            font-size: 30px;
+            color: var(--bg-color);
         }
         .comment-user img{
             margin-right: 10px;
@@ -1203,13 +1282,13 @@ top: 2px;
          
         /* Handle */
         ::-webkit-scrollbar-thumb {
-          background: #00a99d; 
+          background: var(--bg-color); 
           border-radius: 10px;
         }
 
         /* Handle on hover */
         ::-webkit-scrollbar-thumb:hover {
-          background: #00a99d; 
+          background: var(--bg-color); 
         }
         .carousel-control-next, .carousel-control-prev{
             width: 9%;
@@ -1218,7 +1297,7 @@ top: 2px;
             width: 30%;
         }
         #sidebar-wrapper{
-            background: #00a99d;
+            background: var(--bg-menu);
         }
         .sidebar-nav{
             width: 100%;
@@ -1248,18 +1327,18 @@ top: 2px;
             color: #fff;
         }
         footer.footer .social-link{
-            background-color: #00a99d;
+            background-color: var(--bg-color);
         }
         .js-scroll-trigger{
-            background-color: #00a99d;
-            background-image: linear-gradient(315deg, #075c6f 0%, #00a99d 74%);
+            background-color: var(--bg-color);
+            background-image: linear-gradient(315deg, #075c6f 0%, var(--bg-color) 74%);
         }
         #sidebar-wrapper{
             z-index: 994;
         }
         .dropdown-menu{
             width: 100%;
-            background: #00a99d;
+            background: var(--bg-color);
             box-shadow: 11px 6px 22px -10px black
         }
         /*quiz*/
@@ -1273,6 +1352,7 @@ top: 2px;
         margin-right: 10px;    
         font-size: 20px; 
         font-weight: bold; 
+        color: var(--bg-big-color);
     }
 .quiz-container .w3-example {
     background-color: #f1f1f1;
@@ -1306,7 +1386,7 @@ top: 2px;
   line-height: 1.42857143;
   color: #fff;
   text-decoration: none;
-  background-color: #00a99d;
+  background-color: var(--bg-color);
   border: 1px solid #ddd;
   border-radius: 5px;
     margin-left: 10px;
@@ -1320,7 +1400,7 @@ top: 2px;
   line-height: 1.42857143;
   color: #fff;
   text-decoration: none;
-  background-color: #00a99d;
+  background-color: var(--bg-color);
   border: 1px solid #ddd;
   border-radius: 4px;
   width: 150px;
@@ -1338,7 +1418,7 @@ top: 2px;
       margin: 0;
       height: calc(100vh - 65px);
       overflow: hidden;
-      color: #00a99d;
+      color: var(--bg-color);
 }
 #tryExam .page-container {
   
@@ -1364,6 +1444,7 @@ top: 2px;
     box-sizing: border-box;
             padding: 20px 0px 0px 0px;
     margin: 0 auto;
+    border-right: 1px solid var(--border-color);
 }
 
 /*#tryExam .splitter {
@@ -1379,7 +1460,7 @@ top: 2px;
 #tryExam .panel-right {
     flex: 0 0 35%;
     max-width: 35%;
-    background: #fafbfb;
+    background: var(--bg);
     height: calc(100vh - 65px);
         padding: 20px 0px 0px 0px;
     margin: 0 auto;
@@ -1420,17 +1501,17 @@ top: 2px;
   width: 13px;
   background-color: #fff;
   border-radius: 50%;
-  border:1px solid #00a99d;
+  border:1px solid var(--bg-color);
 }
 
 /* On mouse-over, add a grey background color */
 .try-container:hover input ~ .try-checkmark {
-  background-color: #00a99d;
+  background-color: var(--bg-color);
 }
 
 /* When the radio button is checked, add a blue background */
 .try-container input:checked ~ .try-checkmark {
-  background-color: #00a99d;
+  background-color: var(--bg-color);
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -1461,7 +1542,7 @@ top: 2px;
     text-align: center;;
  }
  .quiz-container #time{
-    background-color: #00a99d;
+    background-color: var(--bg-color);
     color: #ffff;
     font-size: 20px;
     font-weight: 600;
@@ -1473,9 +1554,10 @@ top: 2px;
     margin: 0;
  }
  #addLesson .img-general, #addLesson .do-homework, #addLesson .border-comment, #addLesson .border-col{
-box-shadow: 0px 2px 8px 5px #ddd;
+box-shadow: var(--box-shadow-style);
     border-radius: 6px;
     padding: 20px 30px;
+    background: #fff;
  }
  #addLesson .do-homework{
         max-width: 63.666666%;
@@ -1488,8 +1570,9 @@ box-shadow: 0px 2px 8px 5px #ddd;
     margin-left: 15px;
   }
  .add-lesson-border{
-    box-shadow: 0px 2px 8px 5px #ddd;
+    box-shadow: var(--box-shadow-style);
     border-radius: 6px;
+    background:#fff;
  }
  .add-lesson-pad{
     padding: 20px 15px;
@@ -1501,7 +1584,8 @@ box-shadow: 0px 2px 8px 5px #ddd;
  footer.footer{
         padding-top: 3rem;
     padding-bottom: 3rem;
- }
+    background-color:var(--bg-footer);  
+}
 .btn-get-started{
         border-radius: 30px;
         height: 30px;
@@ -1509,6 +1593,7 @@ box-shadow: 0px 2px 8px 5px #ddd;
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        color: #F1F3F4!important;
 }
 .masthead .btn-get-started{
     height: 45px;
@@ -1522,7 +1607,7 @@ box-shadow: 0px 2px 8px 5px #ddd;
     padding-left: 0px;
 }
 #dialy .dialy-item-border{
-        box-shadow: 0px 4px 12px 4px #999;
+        box-shadow: var(--box-shadow-style);
     border-radius: 6px;
     padding: 0;
         max-width: 31.333333%;
@@ -1561,19 +1646,34 @@ box-shadow: 0px 2px 8px 5px #ddd;
     padding: 10px 0px;
 }
 .status-card-lesson{
-    padding: 6px 12px;
-    
-    border-radius: 16px;
+    width: 124px;
+    text-align: center;
 }
 .status-not-yet{
     background-color: #ccc;
-    color: #fff;
+    color: var(--text-title-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 6px 20px;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
 }
 .status-learned{
-    background-color: #00a99d;
-    color: #fff;
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #F1F3F4;
+    padding: 6px 20px;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
 }
-.card-header{
+#add-lesson .card-header{
     cursor: pointer;
 }
 #tryExam td, #tryExam th{
@@ -1582,15 +1682,44 @@ box-shadow: 0px 2px 8px 5px #ddd;
 .btn-napbai{
     background-color: #fff;
     border-radius: 6px;
-    border:1px solid #00a99d;
-    color: #00a99d;
+    border:1px solid var(--bg-color);
+    color: var(--bg-color);
     font-weight: 600;
     padding: 6px 25px;
 }
 .phan-de-thi{
     font-weight: 600;
-    color: #00a99d;
+    color: var(--bg-color);
 }
 .height-pdf{
     height: 95%;
+}
+.menu-toggle{
+background: transparent;
+top: 14px;
+}
+.menu-toggle:hover{
+    background: transparent;
+}
+.menu-toggle .fa-bars{
+font-size: 33px;
+
+}
+footer.footer .social-link:hover{
+        background-color: #41a156;
+}
+.js-card-body{
+    display: none;
+}
+.js-card-body.open{
+    display: block;
+}
+.col-info-teacher{
+        background: #fff;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow-style);
+    padding: 10px 20px;
+}
+.col-img-teacher{
+    align-self: center; 
 }

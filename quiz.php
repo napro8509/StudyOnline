@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
 <div id="second-section2" class="quiz-container pad-60">
-    <div class="container pad-60">
+    <div class="container">
         <div class="row" >
             <div class="col-md-10">
 				<div class="row">
@@ -46,8 +46,9 @@
 							?>
 								<div class="w3-example">
 									<div>
-										<span class="question-id cauhoi"><?php echo $cauhoi; ?></span>
 										<span class="cauhoi"><?php echo "Cau hoi"; ?></span>
+										<span class="question-id cauhoi"><?php echo $cauhoi; ?></span>
+										
 									</div>
 									<div class="w3-code">
 										<?php
@@ -57,8 +58,14 @@
 										{
 											?>
 												<div class="_3Rn0u">
-													<p margin-right: 5px;><input name="<?php echo $j; ?>" type="radio" value="<?php echo $j; ?>" />
-							  							<?php echo $j; ?>
+													<p margin-right: 5px;>
+														<label class="container-btn mdl-radio__label"><?php echo $j; ?>
+															<input name="<?php echo $j; ?>" type="radio" value="<?php echo $j; ?>" />
+															<span class="checkmark"></span>
+														</label>
+														
+							  							
+							  							
 													</p>
 												</div>
 											<?php
@@ -71,7 +78,7 @@
 							
 								?>
 					</form>
-					<div class="col-sm-6 text-right" align="right">
+					<div class="col-sm-12 text-right" align="right">
 						<?php
 						echo "<ul class='pagination' >";
 						if($per_page > 1)

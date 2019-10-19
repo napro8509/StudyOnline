@@ -28,20 +28,8 @@
                         <p class="txt_slogan bounceIn" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"><i>Hướng dẫn ôn tập kì thi THPT Quốc Gia.</i></p>
                     </div>
                     </div>
-                    <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-sine">
-                        <div class = "row">
-                            <div class = "col-3 col-sm-3">
-                                <img src = "./site/img/img_avatar2.png">
-                            </div>
-                            <div class = "col-9 col-sm-9">
-                                <h5 class = "name">Thai Thi Hoa</h5>
-                                <p class = "age">34 tuoi</p>
-                                <p class = "Mon">Ngu Van<p>
-                            </div>
-                        </div>
-
+                    <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                        <?php include("info-teacher.php"); ?>
                     </div>
                 </div>
         
@@ -62,7 +50,7 @@
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container bg-gra-2 ls-img-style-r">
                                 <h2 class="tm-news-title dark-gray-text">LỊCH SỬ VIỆT NAM</h2>
                                 <p class="tm-news-text color-white">Là chuyên đề ...</p>
-                                <a href="#" class="btn btn-background-blue-bold-white tm-news-link">Chi Tiết</a>
+                                <a href="#" class="btn-background-blue-bold-white tm-news-link btn-style-general">Chi Tiết</a>
                             </div>
                         </div>
                         <div class="tm-news-item box-shadow">
@@ -74,7 +62,7 @@
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container bg-gra-3 ls-img-style-l">
                                 <h2 class="tm-news-title dark-gray-text">LỊCH SỬ THẾ GIỚI</h2>
                                 <p class="tm-news-text color-white">Vấn đề ...</p>
-                                <a href="#" class="btn btn-background-blue-bold tm-news-link">Chi Tiết</a>
+                                <a href="#" class="btn-background-blue-bold tm-news-link btn-style-general">Chi Tiết</a>
                             </div>
 
                         </div>

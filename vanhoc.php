@@ -14,17 +14,7 @@
                     </div>
                 </div>
                 <div class = "col-sm-4 info-teacher d-none d-sm-block" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                    <div class = "row">
-                        <div class = "col-3">
-                            <img src = "./site/img/img_avatar2.png">
-                        </div>
-                        <div class = "col-9">
-                            <h5 class = "name">Thai Thi Hoa</h5>
-                            <p class = "age">34 tuoi</p>
-                            <p class = "Mon">Ngu Van<p>
-                        </div>
-                    </div>
-
+                    <?php include("info-teacher.php"); ?>
                 </div>
             </div>
 	
@@ -43,7 +33,7 @@
                         <br>
                         <div class="text-center vanhoc-flex">
                             <a href="#" 
-                                class="templatemo-btn-read-more btn btn-orange">Xem Chi tiết</a>
+                                class="templatemo-btn-read-more btn-orange btn-style-general">Xem Chi tiết</a>
                         </div>
                         <br class="clearfix"/>
                     </div>
@@ -59,7 +49,7 @@
                         <p class = "height-col-vanhoc">Urbanic Template is free Bootstrap CSS layout provided by TemplateMo. Credits go to  and for images used in this template. You may share our website link to your friends. Thank you for visiting.</p>
                         <br>
                         <div class="text-center vanhoc-flex">
-                            <a href="#" class="templatemo-btn-read-more btn btn-orange">Xem Chi Tiết</a>
+                            <a href="#" class="templatemo-btn-read-more btn-orange btn-style-general">Xem Chi Tiết</a>
                         </div>
                         <br class="clearfix"/>
                     </div>
@@ -76,7 +66,7 @@
                         <br>
                         <div class="text-center vanhoc-flex">
                             <a href="#" 
-                                class="templatemo-btn-read-more btn btn-orange">Xem Chi Tiết</a>
+                                class="templatemo-btn-read-more btn-orange btn-style-general">Xem Chi Tiết</a>
                         </div>
                         <br class="clearfix"/>
                     </div>
