@@ -5,14 +5,21 @@
 }
 :root {
     --border-color:#e4e9eb;
-    --bg-color:#4fbd60;
     --bg:#fafbfb;
     --text-small-color:#999;
     --text-title-color:#30333a;
     --box-shadow-style: 1px 2px 9px 1px #CCC;
     --bg-menu:#30333a;
     --bg-footer: #f6f8f9;
-    --bg-big-color:#41a156;
+    --bg-big-color:#0073ab;/*tiki*/
+    --bg-color-gradian:#0073ab; /*tiki*/
+    --fa-color:#0073ab; /*tiki*/
+    --bg-color:#00a1ff; /*tiki*/
+/*    --bg-color:#4fbd60; 
+    --bg-color-gradian: #41a156;
+    --fa-color:#097722;
+    --bg-big-color: #41a156;*/
+    
 }
 a{
     text-decoration: none;
@@ -20,7 +27,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color:#41a156;
+    color:var(--bg-big-color);
 }
 a.btn{
 	text-decoration: none;
@@ -103,7 +110,7 @@ body{
     cursor: pointer;
 }
 .btn-style-general:hover{
-    background: #41a156;
+    background: 				    var(--bg-big-color);
     color: #fff;
     text-decoration: none;
 }
@@ -331,7 +338,7 @@ height: 40px;*/
     background-color: #ddd!important;
 }
 #dangnhap .modal-header{
-    background: linear-gradient(315deg, #097722 0%, var(--bg-color) 74%);
+    background: linear-gradient(315deg, var(--bg-color-gradian) 0%, var(--bg-color) 74%);
 }
 .text-upper-case{
 	text-transform:uppercase;
@@ -968,7 +975,7 @@ ul.nav-wizard li a {
 /*style new header-more*/
 .masthead-more{
     background-color: var(--bg-color);
-    background: linear-gradient(315deg, #097722 0%, var(--bg-color) 74%);
+    background: linear-gradient(315deg, var(--bg-color-gradian) 0%, var(--bg-color) 74%);
     width: 100%;
     height: 140px;
     box-shadow: var(--box-shadow-style);
@@ -976,7 +983,8 @@ ul.nav-wizard li a {
 }
 .js-scroll-trigger{
     background-color: #075c6f; 
-    background-image: linear-gradient(315deg, #4fbd60 0%, #41a156 74%);
+    background-image: linear-gradient(315deg, #4fbd60 0%, 			
+var(--bg-big-color) 74%);
     box-shadow: 0 18px 8px -8px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .border-bg{
@@ -1218,7 +1226,7 @@ top: 2px;
         }
         .fa-small{
             font-size: 18px;
-            color: #097722;
+            color: var(--fa-color);
         }
         .img-general-baigiang{
             color: var(--text-title-color)!important;
@@ -1706,7 +1714,7 @@ font-size: 33px;
 
 }
 footer.footer .social-link:hover{
-        background-color: #41a156;
+        background-color: 				var(--bg-big-color);
 }
 .js-card-body{
     display: none;
