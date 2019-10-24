@@ -51,7 +51,7 @@
 <!-- end feature general -->
 
 <!-- Navigation -->
-<a class="menu-toggle rounded" href="#">
+<!-- <a class="menu-toggle rounded" href="#">
   <i class="fas fa-bars"></i>
 </a>
 <nav id="sidebar-wrapper">
@@ -92,8 +92,36 @@
       <button class="btn-logout">Log Out</button>
     </li>
   </ul>
-</nav>
+</nav> -->
 
+<!-- thanh menu -->
+    <a class="menu-toggle menu-toggle-hover rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav class="header-menu">
+      <ul>
+        <li class="item-menu">Tổng Ôn</li>
+        <li class="item-menu item-dropdown">Lớp 11
+            <ul class="menu-child">
+              <li>Toán Học</li>
+              <li>Hóa Học</li>
+              <li>Vật Lý</li>
+            </ul>
+          
+        </li>
+        <li class="item-menu item-dropdown">Lớp 10
+            <ul class="menu-child">
+              <li>Toán Học</li>
+              <li>Hóa Học</li>
+              <li>Vật Lý</li>
+            </ul>
+        </li>
+        <li class="item-menu">Luyện Đề</li>
+        <li class="item-menu">TOEIC</li>
+        <li class="item-menu">Định Hướng</li>
+      </ul>
+    </nav>
+<!-- end thanh menu -->
 <!-- Header -->
 <header class="masthead d-flex">
   <div class="container-fluid text-center">
@@ -156,4 +184,4 @@
 		    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="site/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 	
-</script>
+<script type="text/javascript">

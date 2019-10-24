@@ -300,7 +300,20 @@ height: 40px;*/
     text-align: center;
 /*    padding: 5px 5px !important;*/
 }
-
+/*header menu*/
+.header-menu{
+    width: 50%;
+    background-color: blue;
+    height: 100%;
+    position: absolute;
+    z-index: 99999;
+    right: -1000px;
+}
+.header-menu li{
+    list-style-type: none;
+    cursor: pointer;
+}
+/*end header menu*/
 /*end style animation*/
 /*style general*/
 .carousel-caption{
