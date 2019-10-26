@@ -95,7 +95,7 @@
 </nav> -->
 
 <!-- thanh menu -->
-    <a class="menu-toggle menu-toggle-hover rounded" href="#">
+    <a class="menu-toggle menu-toggle-hover" href="#">
       <i class="fas fa-bars"></i>
     </a>
     <nav class="header-menu">
@@ -184,4 +184,3 @@
 		    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="site/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 	
-<script type="text/javascript">

@@ -1,6 +1,5 @@
 
 <?php include("header.php"); ?>
-<link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake-slow.min.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css">
 

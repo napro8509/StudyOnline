@@ -19,13 +19,12 @@
 		setcookie('MaChuong', $title);
         header('Location:baihoc.php');
 	}
-
 ?>
 	<div class="container container-add-baihoc mrg-30">
 		<form name="frmbaiviet" method="POST" enctype="multipart/form-data">
 			<div class="baihoc-header-title"><h3><i class="fa fa-pencil" aria-hidden="true"></i>THÊM MỚI</h3></div>
-			<a href="baihoc.php" class="btn-style-remove"><i class="fa fa-cog" aria-hidden="true"></i>Chương đã có sẵn</a>
-			<div class="form-group">
+			<div class="pad-30 no-pad-30"><a href="baihoc.php" class="btn-style-remove"><i class="fa fa-cog" aria-hidden="true"></i>Chương đã có sẵn</a></div>
+			<div class="form-group pad-30 no-pad-30">
 				<label>Tên chương</label>
 				<input type="text" name="title" value="<?php if (isset($_POST['title'])) {echo $_POST['title'];}?>" class="form-control" placeholder="Tên Chương ">
 				<?php
@@ -34,7 +33,7 @@
                     }
                     ?>
 			</div>
-			<input type="submit" name="submit" class="btn btn-primary btn-style-general" value="Thêm mới">
+			<div class="pad-30"><input type="submit" name="submit" class="btn btn-primary btn-style-general" value="Thêm mới"></div>
 		</form>
 	</div>
 </div>

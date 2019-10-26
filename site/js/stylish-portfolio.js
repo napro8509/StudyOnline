@@ -23,8 +23,8 @@
     }
   });*/
   /*viết lại menu*/
-    $('.menu-toggle-hover').click(function(){
-        alert('anc');
+    $('.menu-toggle.menu-toggle-hover').hover(function(){
+        
         $('.menu-toggle-hover').css('color','blue');
     })
   // Closes responsive menu when a scroll trigger link is clicked
