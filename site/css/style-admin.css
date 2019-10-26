@@ -246,6 +246,7 @@ textarea:focus, input:focus{
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    color:#30333A;
 }
 .wrap-contact100 {
     margin-top: 10px;
