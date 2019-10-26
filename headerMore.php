@@ -19,12 +19,13 @@
         <a class="js-scroll-trigger1" href="#page-top">Tổng ôn</a>
       </li>
       <li class="sidebar-nav-item dropdown">
-        <a class="js-scroll-trigger1 dropdown-toggle" id="lop11-Dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lớp 11</a>
+        <a class="js-scroll-trigger1 dropdown-toggle" id="lop11-Dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lớp 11
           <div class="dropdown-menu" aria-labelledby="lop11-Dropdown">
-	          <a class="dropdown-item" href="#">Toán Học</a>
-	          <a class="dropdown-item" href="#">Vật Lý</a>
-	          <a class="dropdown-item" href="#">Hóa Học</a>
-   		  </div>
+            <a class="dropdown-item" href="#">Toán Học</a>
+            <a class="dropdown-item" href="#">Vật Lý</a>
+            <a class="dropdown-item" href="#">Hóa Học</a>s
+          </div>
+        </a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger1" href="#services">Lớp 10</a>

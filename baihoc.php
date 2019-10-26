@@ -1,4 +1,4 @@
-<?php include("headerAdmin.php"); ?>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- <script type="text/javascript" src="assets/tinymce/tinymce/tinymce.min.js"></script>
  --><!-- <script type="text/javascript" src="assets/tinymce/tiny.js"></script>
@@ -7,75 +7,82 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<div class="container container-contact100 pad-60" id="baiHoc">
-    <div class="wrap-contact100 fade-in">
-        <?php
+    <div class ="main-container" style="display: flex;">
+        <?php include("navBar.php"); ?>   
+        <div class ="wrapper">
+            <?php include("headerAdmin.php"); ?>
+            <div class="container-baihoc" id="baiHoc">
+                <div class="wrap-contact100 fade-in">
+                    <?php
 
-        ?>
-        <form class="contact100-form validate-form" name="frmbaiviet" method="POST" enctype="multipart/form-data">
-            <div class="baihoc-header">
-                <div class="baihoc-header-title"><span class="contact100-form-title"><i class="fa fa-book" aria-hidden="true"></i>Thêm bài học</span></div>
-                <div class="pad-30">
-                    <div>
-                        <div class="form-group baihoc-chuong">
-                        <label class="label-input100"><i class="fa fa-pencil" aria-hidden="true"></i>Chương</label>
-                            <div class="select">
-                            <?php $chuong=$_COOKIE['MaChuong'];
-                                if(!$chuong)
-                                {
-                                    $chuong=0;
-                            ?>
-                            <select id='list'>
-                                <option value='0'>Chương</option>
-                                <option value='1'>DAO ĐỘNG CƠ HỌC</option>
-                                <option value='2'>SÓNG CƠ HỌC</option>
-                                <option value='3'>ĐIỆN XOAY CHIỀU</option>
-                                <option value='4'>dao động và sóng điện từ</option>
-                            </select>
-                            <?php
-                                }
-                                else
-                                {
-                                    echo "Tên Chương vừa nhập ".$chuong;
-                                } 
-                                setcookie('MaChuong', '-1');
-                            ?>
+                    ?>
+                    <form class="contact100-form validate-form" name="frmbaiviet" method="POST" enctype="multipart/form-data">
+                        <div class="baihoc-header">
+                            <div class="baihoc-header-title"><span class="contact100-form-title"><i class="fa fa-book" aria-hidden="true"></i>Thêm bài học</span></div>
+                            <div class="pad-30">
+                                <div>
+                                    <div class="form-group baihoc-chuong">
+                                    <label class="label-input100"><i class="fa fa-pencil" aria-hidden="true"></i>Chương</label>
+                                        <div class="select">
+                                        <?php $chuong=$_COOKIE['MaChuong'];
+                                            if(!$chuong)
+                                            {
+                                                $chuong=0;
+                                        ?>
+                                        <select id='list'>
+                                            <option value='0'>Chương</option>
+                                            <option value='1'>DAO ĐỘNG CƠ HỌC</option>
+                                            <option value='2'>SÓNG CƠ HỌC</option>
+                                            <option value='3'>ĐIỆN XOAY CHIỀU</option>
+                                            <option value='4'>dao động và sóng điện từ</option>
+                                        </select>
+                                        <?php
+                                            }
+                                            else
+                                            {
+                                                echo "Tên Chương vừa nhập ".$chuong;
+                                            } 
+                                            setcookie('MaChuong', '-1');
+                                        ?>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-input100" data-validate = "Valid email is required: ex@abc.xyz">
+                                    <span class="label-input100"><i class="fa fa-pencil" aria-hidden="true"></i>Tên bài học</span>
+                                    <input class="input100" type="text"  placeholder="Nhập tên bài học...">
+                                    <span class=""></span>
+                                </div>
                             </div>
-                         </div>
-                    </div>
-
-                     <div class="wrap-input100" data-validate = "Valid email is required: ex@abc.xyz">
-                        <span class="label-input100"><i class="fa fa-pencil" aria-hidden="true"></i>Tên bài học</span>
-                        <input class="input100" type="text"  placeholder="Nhập tên bài học...">
-                        <span class=""></span>
-                    </div>
+                        </div>
+                        <div class="baihoc-content">
+                            <div class="baihoc-header-title"><span class="contact100-form-title"><i class="fa fa-upload" aria-hidden="true"></i>Đăng bài học</span></div>
+                            <div class="pad-30">
+                                <div id='path-group'></div>
+                                <!-- <input type="hidden" id="path"> -->
+                                <input  type="hidden" id="path" name = "linkfile">
+                                <a href="#" id="select-img" title="Chon hinh anh" class="btn-style-general"><i class="fa fa-folder-open-o" aria-hidden="true"></i>Chon file</a>
+                                <a href="#" id="remove-img" title="Xoa hinh anh" class="btn-style-remove"><i class="fa fa-trash-o" aria-hidden="true"></i>Xoa file</a>
+                                <br/>
+                                <div class="baihoc-flex">
+                                    <span class="label-input100"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Chọn File:</span>
+                                    <input type="file" name="excel" id="mySelect" onchange="myFunction()"/>
+                                    <!-- <input type="file" name="excel" id="mySelect"/> -->
+                                    <div id='link-file'></div>
+                                </div>
+                                <input type="submit" name="submit" class="btn-style-general" value="Thêm mới"> 
+                            </div>
+                
+                        </div>
+                    </form>
+                    <a href="baihoc_add.php">
+                        <button class="contact100-form-btn btn-style-general"><i class="fa fa-plus" aria-hidden="true"></i>Tạo bài giảng cho chương khác </button>
+                    </a>
                 </div>
             </div>
-            <div class="baihoc-content">
-                <div class="baihoc-header-title"><span class="contact100-form-title"><i class="fa fa-upload" aria-hidden="true"></i>Đăng bài học</span></div>
-                <div class="pad-30">
-                    <div id='path-group'></div>
-                    <!-- <input type="hidden" id="path"> -->
-                    <input  type="hidden" id="path" name = "linkfile">
-                    <a href="#" id="select-img" title="Chon hinh anh" class="btn-style-general"><i class="fa fa-folder-open-o" aria-hidden="true"></i>Chon file</a>
-                    <a href="#" id="remove-img" title="Xoa hinh anh" class="btn-style-remove"><i class="fa fa-trash-o" aria-hidden="true"></i>Xoa file</a>
-                    <br/>
-                    <div class="baihoc-flex">
-                        <span class="label-input100"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Chọn File:</span>
-                        <input type="file" name="excel" id="mySelect" onchange="myFunction()"/>
-                        <!-- <input type="file" name="excel" id="mySelect"/> -->
-                        <div id='link-file'></div>
-                    </div>
-                    <input type="submit" name="submit" class="btn-style-general" value="Thêm mới"> 
-                </div>
-    
-            </div>
-        </form>
-        <a href="baihoc_add.php">
-            <button class="contact100-form-btn btn-style-general"><i class="fa fa-plus" aria-hidden="true"></i>Tạo bài giảng cho chương khác </button>
-        </a>
+        </div>
     </div>
-</div>
+
 
 
 </body>

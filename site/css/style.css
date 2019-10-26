@@ -143,7 +143,7 @@ select {
   .select:hover::after {
     color: #fff;
   }
-  
+
 /*form login*/
 .group-buttons{
         display: flex;
@@ -1800,4 +1800,7 @@ footer.footer .social-link:hover{
 }
 .col-img-teacher{
     align-self: center; 
+}
+.menu-toggle:hover {
+    background: transparent;
 }
