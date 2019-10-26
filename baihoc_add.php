@@ -20,7 +20,7 @@
 			header('Location:baihoc.php');
 		}
 	?>
-	<div class="container-add-baihoc">
+	<div class="container-add-baihoc container-baihoc">
 		<form name="frmbaiviet" method="POST" enctype="multipart/form-data">
 			<div class="baihoc-header-title"><h3><i class="fa fa-pencil" aria-hidden="true"></i>THÊM MỚI</h3></div>
 			<div class="pad-30 no-pad-30"><a href="baihoc.php" class="btn-style-remove"><i class="fa fa-cog" aria-hidden="true"></i>Chương đã có sẵn</a></div>

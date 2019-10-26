@@ -88,7 +88,7 @@ select {
             background: #30333A; 
           }
 a{
-    text-decoration: none;
+    text-decoration: none!important;
 }
 input{
     border:2px solid var(--color-border)!important;
@@ -245,6 +245,7 @@ textarea:focus, input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 .wrap-contact100 {
     margin-top: 10px;
@@ -257,5 +258,5 @@ textarea:focus, input:focus{
     width: 100%;
 }
 .container-baihoc {
-    padding: 15px 60px 30px 60px;
+    margin: 15px 60px 30px 60px;
 }

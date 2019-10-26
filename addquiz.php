@@ -10,7 +10,7 @@
 	<?php include("navBar.php"); ?>
 	<div class ="wrapper">
 		<?php include("headerAdmin.php"); ?>
-		<div class="baihoc-header" id="addQuiz">
+		<div class="baihoc-header container-baihoc" id="addQuiz">
 			<div class="row">
 				<div class="col-12 choise-quiz-textArea">
 					<textarea id = "myTextarea" name="cauhoi"></textarea>
