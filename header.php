@@ -51,7 +51,7 @@
 <!-- end feature general -->
 
 <!-- Navigation -->
-<!-- <a class="menu-toggle rounded" href="#">
+ <a class="menu-toggle rounded" href="#">
   <i class="fas fa-bars"></i>
 </a>
 <nav id="sidebar-wrapper">
@@ -92,36 +92,7 @@
       <button class="btn-logout">Log Out</button>
     </li>
   </ul>
-</nav> -->
-
-<!-- thanh menu -->
-    <a class="menu-toggle menu-toggle-hover" href="#">
-      <i class="fas fa-bars"></i>
-    </a>
-    <nav class="header-menu">
-      <ul>
-        <li class="item-menu">Tổng Ôn</li>
-        <li class="item-menu item-dropdown">Lớp 11
-            <ul class="menu-child">
-              <li>Toán Học</li>
-              <li>Hóa Học</li>
-              <li>Vật Lý</li>
-            </ul>
-          
-        </li>
-        <li class="item-menu item-dropdown">Lớp 10
-            <ul class="menu-child">
-              <li>Toán Học</li>
-              <li>Hóa Học</li>
-              <li>Vật Lý</li>
-            </ul>
-        </li>
-        <li class="item-menu">Luyện Đề</li>
-        <li class="item-menu">TOEIC</li>
-        <li class="item-menu">Định Hướng</li>
-      </ul>
-    </nav>
-<!-- end thanh menu -->
+</nav>
 <!-- Header -->
 <header class="masthead d-flex">
   <div class="container-fluid text-center">

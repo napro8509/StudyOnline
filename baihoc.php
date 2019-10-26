@@ -1,3 +1,4 @@
+<?php include("headerAdmin.php"); ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- <script type="text/javascript" src="assets/tinymce/tinymce/tinymce.min.js"></script>
  --><!-- <script type="text/javascript" src="assets/tinymce/tiny.js"></script>
@@ -16,12 +17,13 @@
                 <div class="baihoc-header-title"><span class="contact100-form-title"><i class="fa fa-book" aria-hidden="true"></i>Thêm bài học</span></div>
                 <div class="pad-30">
                     <div>
-                        <div class="form-group">
-                        <label><i class="fa fa-pencil" aria-hidden="true"></i>Chương</label>
-                        <?php $chuong=$_COOKIE['MaChuong'];
-                            if(!$chuong)
-                            {
-                                $chuong=0;
+                        <div class="form-group baihoc-chuong">
+                        <label class="label-input100"><i class="fa fa-pencil" aria-hidden="true"></i>Chương</label>
+                            <div class="select">
+                            <?php $chuong=$_COOKIE['MaChuong'];
+                                if(!$chuong)
+                                {
+                                    $chuong=0;
                             ?>
                             <select id='list'>
                                 <option value='0'>Chương</option>
@@ -31,13 +33,14 @@
                                 <option value='4'>dao động và sóng điện từ</option>
                             </select>
                             <?php
-                            }
-                            else
-                            {
-                                echo "Tên Chương vừa nhập ".$chuong;
-                            } 
-                            setcookie('MaChuong', '-1');
-                        ?>
+                                }
+                                else
+                                {
+                                    echo "Tên Chương vừa nhập ".$chuong;
+                                } 
+                                setcookie('MaChuong', '-1');
+                            ?>
+                            </div>
                          </div>
                     </div>
 

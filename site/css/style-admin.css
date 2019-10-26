@@ -13,6 +13,80 @@ body{
     background-color: var(--background);
     color: var(--color-small);
 }
+/* Reset Select */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    background: #fff;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 34px;
+    line-height: 31px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: .25em;
+    border: 2px solid #4fbd60;
+    padding: 0px 10px;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #999;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #4fbd60;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color:#fff;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #fff;
+  }
+          /*color scroll bar*/
+        /* width */
+        ::-webkit-scrollbar {
+            width: 5px;
+          }
+  
+          /* Track */
+          ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+          }
+           
+          /* Handle */
+          ::-webkit-scrollbar-thumb {
+            background: #30333A; 
+            border-radius: 0px;
+          }
+  
+          /* Handle on hover */
+          ::-webkit-scrollbar-thumb:hover {
+            background: #30333A; 
+          }
 a{
     text-decoration: none;
 }
@@ -130,9 +204,19 @@ textarea:focus, input:focus{
         font-size: 16px;
     font-weight: 600;
 }
-.label-input100{
+.baihoc-chuong {
+    display: flex;
+}
+.wrap-input100 {
+    display: flex;
+    margin-top: 20px;
+}
+.input100 {
+    width: 280px;
+}
+.label-input100 {
     align-self: center;
-    margin-right: 20px;
+    width: 150px;
 }
 .baihoc-flex {
     margin-top: 20px;
@@ -154,4 +238,8 @@ textarea:focus, input:focus{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 60px 60px;
+}
+.masthead-admin {
+    background-color:#30333A ;
+    height: 50px;
 }

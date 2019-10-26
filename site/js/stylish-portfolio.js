@@ -2,7 +2,7 @@
   "use strict"; // Start of use strict
 
   // Closes the sidebar menu
-/*  $(".menu-toggle").click(function(e) {
+  $(".menu-toggle").click(function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
@@ -21,12 +21,7 @@
         return false;
       }
     }
-  });*/
-  /*viết lại menu*/
-    $('.menu-toggle.menu-toggle-hover').hover(function(){
-        
-        $('.menu-toggle-hover').css('color','blue');
-    })
+  });
   // Closes responsive menu when a scroll trigger link is clicked
   $('#sidebar-wrapper .js-scroll-trigger').click(function() {
     $("#sidebar-wrapper").removeClass("active");
