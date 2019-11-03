@@ -1841,3 +1841,6 @@ footer.footer .social-link:hover{
         overflow: auto;
     height: 85%;
 }
+.modal-backdrop.show {
+    opacity: 0.3;
+}
