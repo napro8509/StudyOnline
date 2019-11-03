@@ -12,19 +12,19 @@
         <a class="sidebar-nav-item" href="#">Admin</a>
     </div>
   </div>
-      <a class="sidebar-item " href="#">
+      <a class="sidebar-item " href="./baihoc.php">
         <div class="appbar">
             <i class="fa fa-book" aria-hidden="true"></i>
             <span class="minimize-hide">Bài Học</span>
         </div>
       </a>
-      <a class="sidebar-item " href="#">
+      <a class="sidebar-item " href="./baihoc_add.php">
         <div class="appbar">
             <i class="fa fa-file-code-o" aria-hidden="true"></i>
             <span class="minimize-hide">Thêm Bài Học</span>
         </div>
       </a>
-      <a class="sidebar-item " href="#">
+      <a class="sidebar-item " href="./addquiz.php">
         <div class="appbar">
         <i class="fa fa-stumbleupon" aria-hidden="true"></i>
             <span class="minimize-hide">Add Quiz</span>
@@ -37,3 +37,4 @@
         </div>
       </a>
     </div>
+    <script src="./site/js/script.js"></script>

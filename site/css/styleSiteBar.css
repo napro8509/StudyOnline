@@ -132,3 +132,7 @@
     background: rgba(35, 37, 42, 1);
     color: rgb(79, 189, 96);
 }
+.appbar.active {
+    background: rgba(35, 37, 42, 1);
+    color: rgb(79, 189, 96);
+}

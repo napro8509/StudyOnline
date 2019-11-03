@@ -54,45 +54,56 @@
  <a class="menu-toggle rounded" href="#">
   <i class="fas fa-bars"></i>
 </a>
-<nav id="sidebar-wrapper">
-  <ul class="sidebar-nav">
-    <li class="sidebar-brand">
-      <img src="./site/img/img_avatar2.png">
-      <a class="" href="#page-top">UserName</a>
-    </li>
-    <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger1" href="#page-top">Tổng ôn</a>
-    </li>
-    <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger1 dropdown-toggle" id="lop11-Dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lớp 11</a>
-        <div class="dropdown-menu" aria-labelledby="lop11-Dropdown">
-          <a class="dropdown-item" href="#">Toán Học</a>
-          <a class="dropdown-item" href="#">Vật Lý</a>
-          <a class="dropdown-item" href="#">Hóa Học</a>
+  <nav id="sidebar-wrapper">
+   
+      <div class="sidebar-brand">
+        <img src="./site/img/img_avatar2.png">
+        <a class="" href="#page-top">UserName</a>
       </div>
-    </li>
-    <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger1 dropdown-toggle" id="lop10-Dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lớp 10</a>
-        <div class="dropdown-menu" aria-labelledby="lop10-Dropdown">
-          <a class="dropdown-item" href="#">Toán Học</a>
-          <a class="dropdown-item" href="#">Vật Lý</a>
-          <a class="dropdown-item" href="#">Hóa Học</a>
-      </div>
-    </li>
-    <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger1" href="#portfolio">Luyện đề</a>
-    </li>
-    <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger1" href="#contact">TOEIC</a>
-    </li>
-    <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger1" href="#contact">Định Hướng</a>
-    </li>
-    <li class="last-li-menu">
-      <button class="btn-logout">Log Out</button>
-    </li>
-  </ul>
-</nav>
+    
+    <ul class="sidebar-nav">
+
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger1" href="#page-top"><i class="fa fa-files-o" aria-hidden="true"></i> Tổng ôn</a>
+      </li>
+      <li class="sidebar-nav-item dropdown-child">
+        <a class="js-scroll-trigger1" id="lop11-Dropdown"><i class="fa fa-linode" aria-hidden="true"></i> Lớp 11 <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+        <div class="menu-child">
+          <a class="menu-item" href="#"><i class="fa fa-codepen" aria-hidden="true"></i> Toán Học</a>
+          <a class="menu-item" href="./vatly.php"><i class="fa fa-plug" aria-hidden="true"></i> Vật Lý</a>
+          <a class="menu-item" href="#"><i class="fa fa-flask" aria-hidden="true"></i> Hóa Học</a>
+          <a class="menu-item" href="./vanhoc.php"><i class="fa fa-pencil" aria-hidden="true"></i> Văn Học</a>
+          <a class="menu-item" href="./dialy.php"><i class="fa fa-pie-chart" aria-hidden="true"></i> Địa Lý</a>
+          <a class="menu-item" href="./tree.php"><i class="fa fa-assistive-listening-systems" aria-hidden="true"></i> Tiếng Anh</a>
+          <a class="menu-item" href="./lichsu.php"><i class="fa fa-history" aria-hidden="true"></i> Lịch Sử</a>
+        </div>
+      </li> 
+      <li class="sidebar-nav-item dropdown-child">
+          <a class="js-scroll-trigger1" id="lop10-Dropdown"><i class="fa fa-linode" aria-hidden="true"></i> Lớp 10 <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <div class="menu-child">
+          <a class="menu-item" href="#"><i class="fa fa-codepen" aria-hidden="true"></i> Toán Học</a>
+          <a class="menu-item" href="#"><i class="fa fa-plug" aria-hidden="true"></i> Vật Lý</a>
+          <a class="menu-item" href="#"><i class="fa fa-flask" aria-hidden="true"></i> Hóa Học</a>
+          <a class="menu-item" href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Văn Học</a>
+          <a class="menu-item" href="#"><i class="fa fa-pie-chart" aria-hidden="true"></i> Địa Lý</a>
+          <a class="menu-item" href="#"><i class="fa fa-assistive-listening-systems" aria-hidden="true"></i> Tiếng Anh</a>
+          <a class="menu-item" href="#"><i class="fa fa-history" aria-hidden="true"></i> Lịch Sử</a>
+          </div>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger1" href="#portfolio"> <i class="fa fa-cogs" aria-hidden="true"></i>Luyện đề</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger1" href="#contact"><i class="fa fa-book" aria-hidden="true"></i> TOEIC</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger1" href="#contact"><i class="fa fa-handshake-o" aria-hidden="true"></i>  Định Hướng</a>
+      </li>
+      <li class="last-li-menu">
+        <button class="btn-logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</button>
+      </li>
+    </ul>
+  </nav>
 <!-- Header -->
 <header class="masthead d-flex">
   <div class="container-fluid text-center">
