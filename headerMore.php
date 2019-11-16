@@ -1,5 +1,5 @@
 
-<?php include("general.php"); ?>
+
 <!-- feature general -->
 <!-- modal Login, Sign in -->
 <?php include("modalLogin.php"); ?>

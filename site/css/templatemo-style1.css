@@ -3,11 +3,11 @@ Timeline Template
 http://www.templatemo.com/preview/templatemo_427_timeline
 */
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
 
-@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);*/
 
 html {
     box-sizing: border-box;
@@ -37,7 +37,7 @@ html {
 }
 
 .navbar-brand p {
-    font-family: 'Dosis';
+    /*font-family: 'Dosis';*/
     font-size: 32px;
     font-weight: 600;
     color: #fff;
@@ -54,7 +54,7 @@ html {
 }
 
 .navbar-right a {
-    font-family: 'Dosis';
+    /*font-family: 'Dosis';*/
     font-size: 16px;
     color: #eaffd6 !important;
     text-transform: uppercase;
@@ -136,7 +136,7 @@ html {
 
 #big-banner .main-icons a {
     display: block;
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 22px;
     color: #fff;
     text-decoration: none;
@@ -154,7 +154,7 @@ html {
 }
 
 .heading h2 {
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 32px;
     text-transform: uppercase;
     text-align: center;
@@ -391,7 +391,7 @@ html {
 }
 
 .cd-timeline-content h2 {
-    font-family: 'Dosis';
+    /*font-family: 'Dosis';*/
     font-size: 22px !important;
     font-weight: 600;
     color: #333;
@@ -405,7 +405,7 @@ html {
 }
 
 .cd-timeline-content p {
-    font-family: 'Dosis';
+    /*font-family: 'Dosis';*/
     font-size: 16px !important;
     color: #333;
     line-height: 24px;
@@ -434,7 +434,7 @@ html {
 }
 
 .project-content span {
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 12px;
     text-transform: uppercase;
     color: #777;
@@ -651,7 +651,7 @@ html {
 
 #cta h4 {
     margin-top: 100px;
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 42px;
     text-align: center;
     text-transform: uppercase;
@@ -660,7 +660,7 @@ html {
 }
 
 #cta p {
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
@@ -678,7 +678,7 @@ html {
 
 #map h4 {
     margin-top: 100px;
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 42px;
     text-align: center;
     text-transform: uppercase;
@@ -687,7 +687,7 @@ html {
 }
 
 #map p {
-    font-family: 'Dosis';
+    /*font-family: 'Dosis';*/
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
@@ -706,7 +706,7 @@ form {
 }
 
 input, textarea {
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 13px;
     padding: 10px;
     border: 3px solid #eee;
@@ -725,7 +725,7 @@ textarea {
 }
 
 .submit input {
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
@@ -754,7 +754,7 @@ form {
 }
 
 .contact-discription h4 {
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 22px;
     font-weight: 600;
     color: #333;
@@ -763,7 +763,7 @@ form {
 
 .contact-discription p {
     margin-top: 22px;
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 16px;
     color: #333;
     font-weight: 500;
@@ -786,7 +786,7 @@ footer {
 }
 
 .copyright-text p {
-    font-family: 'Dosis';
+   /* font-family: 'Dosis';*/
     font-size: 14px;
     color: #fff;
 }
@@ -810,7 +810,7 @@ footer {
 }
 
 .back-to-top a {
-    font-family: 'Dosis';
+    /*font-family: 'Dosis';*/
     font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
@@ -938,7 +938,7 @@ footer {
 
     #big-banner .main-icons a {
         display: block;
-        font-family: 'Dosis';
+        /*font-family: 'Dosis';*/
         font-size: 16px;
         color: #fff;
         text-decoration: none;
@@ -974,7 +974,7 @@ footer {
 
     #big-banner .main-icons a {
         display: block;
-        font-family: 'Dosis';
+       /* font-family: 'Dosis';*/
         font-size: 14px;
         color: #fff;
         text-decoration: none;

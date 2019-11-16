@@ -6,8 +6,8 @@
 	<div class="container pad-30 pad-60" id="add-lesson">
 		<h2 class ="padl-10 title title-hoc-phi text-center" id="listPanel">Ôn thi THPT Quốc Gia môn Hóa Học</h2>
 		<div class="line-main"></div>
-		<div class="row intro-learn text-center">
-			<div class="col-sm-4">
+		<div class="row intro-learn text-center nav nav-tabs" role="tablist">
+			<div class="col-sm-4 tamgiac active" href="#vaohoc" role="tab" data-toggle="tab">
 				<div class="row row-intro-learn">
 					<div class="col-sm-12 vao-hoc">
 						<h5 class="color-white">VÀO HỌC</h5>
@@ -17,7 +17,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 tamgiac" href="#luyentap" role="tab" data-toggle="tab">
 				<div class="row row-intro-learn">
 					<div class="col-sm-12 luyen-tap">
 						<h5 class="color-white">LUYỆN TẬP</h5>
@@ -26,7 +26,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 tamgiac" href="#chienluochoctap" role="tab" data-toggle="tab">
 				<div class="row row-intro-learn">
 					<div class="col-sm-12 luyen-de">
 						<h5 class="color-white">VÀO HỌC</h5>
@@ -36,8 +36,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="row pad-30">
-			<div class="col-sm-8">
+		<div class="tab-content row pad-30">
+			<div class="tab-pane fade in active" role="tabpanel" id="vaohoc">
+				<div class="col-sm-8">
 				<div class="container add-lesson-border">
 					<div class="row add-lesson-pad">
 						<div class="col-sm-6 mr-b-10">
@@ -243,10 +244,8 @@
 						</div>
 					</div>
 				</div>
-
-
-			</div>
-			<div class="col-sm-4 add-lesson-border add-lesson-pad d-none d-sm-block">
+				</div>
+				<div class="col-sm-4 add-lesson-border add-lesson-pad d-none d-sm-block">
 				<div class="block-buy">
 						<div class="header">
 							<i class="fa fa-cubes" aria-hidden="true"></i>
@@ -270,8 +269,11 @@
 							<img src="./site/img/thay-phi.png">
 						</div>
 					</div>
+				</div>
 			</div>
-		</div>
+	  		<div class="tab-pane fade" role="tabpanel" id="luyentap">noi dung ne</div>
+  			<div class="tab-pane fade" role="tabpanel" id="chienluochoctap">noi dung cua chien luoc hoc tap ne</div>
+  		</div>
 	</div>
 </content>
 
@@ -280,11 +282,6 @@
 	  $('.js-card-header').click(function(){
 	  	var findCard = $('.js-card-header');
 	  	var _this = $(this);
-/*	  			findCard.find('.js-card-body').removeClass('open');
-	  			$(this).find('.js-card-body').addClass('open');
-	  	$('.js-card-header').find('.js-card-body').slideDown(400, function(){
-	  			$(this).addClass('open');
-	  	});*/
 	  	if(findCard.find('.js-card-body').hasClass('open')){
 	  		$(findCard.find('.js-card-body')).slideUp(400, function(){
 				$(findCard.find('.js-card-body')).removeClass('open');

@@ -45,7 +45,7 @@ body{
 	margin:0px;
 	color: var(--text-title-color);
 	overflow-x: hidden;
-    font-family: ProximaNova-Regular!important;   
+    font-family: 'Open Sans', sans-serif;
     background:var(--bg);
 }
 .fa{
@@ -567,7 +567,7 @@ height: 40px;*/
 .topicInfo-item-content .des{
     font-style: italic;
     font-size: 13px;
-    font-family: ProximaNova-Regular;
+    /*font-family: ProximaNova-Regular;*/
 }
 .panelSystemInfo{
     text-align: center;
@@ -681,7 +681,7 @@ height: 40px;*/
     box-shadow: var(--box-shadow-style);
     border-radius: 6px;
     padding: 20px 30px;
-
+    cursor: pointer;
 }
 .luyen-tap img, .vao-hoc img, .luyen-de img{
 	width: 80px;
@@ -1571,6 +1571,14 @@ top: 2px;
   opacity: 0;
   cursor: pointer;
 }
+/*-------------------------------*/
+/*màu sắc chọn trắc nghiêm
+    1. try-checkmark
+    2. try-checkmark-error: sai;
+    3. try-checkmark-correct : đúng;
+    4. try-checkmark-unselect : chưa chọn;
+*/
+/*mau nut checkbox user chon trac nghiem*/
 .try-checkmark {
   position: absolute;
   top: -5px;
@@ -1580,6 +1588,61 @@ top: 2px;
   background-color: #fff;
   border-radius: 50%;
   border:1px solid var(--bg-color);
+}
+/* Show the indicator (dot/circle) when checked */
+.try-container input:checked ~ .try-checkmark:after {
+  display: block;
+}
+
+/*-------------------------------*/
+/*tra ket qua mau nut checkbox user chon trac nghiem sai voi dap an : mau do*/
+.try-checkmark-error {
+  position: absolute;
+  top: -5px;
+  left: 7px;
+  height: 13px;
+  width: 13px;
+  background-color: #fff;
+  border-radius: 50%;
+  border:1px solid #DC4F49;
+}
+/* Show the indicator (dot/circle) when checked */
+.try-container input:checked ~ .try-checkmark-error:after {
+  display: block;
+}
+
+/*-------------------------------*/
+/*tra ket qua mau nut checkbox user chon trac nghiem dung voi dap an : mau xanh da troi*/
+.try-checkmark-correct {
+  position: absolute;
+  top: -5px;
+  left: 7px;
+  height: 13px;
+  width: 13px;
+  background-color: #fff;
+  border-radius: 50%;
+  border:1px solid #48A3D9;
+}
+/* Show the indicator (dot/circle) when checked */
+.try-container input:checked ~ .try-checkmark-correct:after {
+  display: block;
+}
+
+/*-------------------------------*/
+/*tra ket qua mau nut checkbox user khong chon trac nghiem voi dap an : mau xam*/
+.try-checkmark-unselect {
+  position: absolute;
+  top: -5px;
+  left: 7px;
+  height: 13px;
+  width: 13px;
+  background-color: #fff;
+  border-radius: 50%;
+  border:1px solid #A3B0B8;
+}
+/* Show the indicator (dot/circle) when checked */
+.try-container input:checked ~ .try-checkmark-unselect:after {
+  display: block;
 }
 
 /* On mouse-over, add a grey background color */
@@ -1592,27 +1655,8 @@ top: 2px;
   background-color: var(--bg-color);
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
-/*.try-checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}*/
 
-/* Show the indicator (dot/circle) when checked */
-.try-container input:checked ~ .try-checkmark:after {
-  display: block;
-}
 
-/* Style the indicator (dot/circle) */
-/*.try-container .try-checkmark:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}*/
  #tryExam .answer-ratio td{
     padding: 0px 0px;
  }
@@ -1843,4 +1887,66 @@ footer.footer .social-link:hover{
 }
 .modal-backdrop.show {
     opacity: 0.3;
+}
+.style-vatly {
+    height: 50px;
+    width: 60%;
+    border: 1px solid var(--border-color);
+    background: #fff;
+    border-radius: 6px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow-style);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.style-vatly:hover {
+    transform: scale(1.2);
+}
+.click-vatly {
+    color: var(--text-title-color);
+}
+#add-lesson .fade:not(.show) {
+    opacity: 1
+}
+#add-lesson .tab-content>.active {
+    display: inherit;
+}
+#add-lesson .nav-tabs {
+    border:none;
+}
+#add-lesson .tamgiac {
+    position: relative;
+    height: 198px !important;
+    transition: all 0.5s;
+}
+#add-lesson .tamgiac :hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+#add-lesson .tamgiac.active:after {
+    content: '';
+    position: absolute;
+    top: 107%;
+    left: 45%;
+    /* margin-left: -50px; */
+    width: 0;
+    height: 0;
+    border-bottom: solid 16px #fff;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+    z-index: 999999;
+}
+#add-lesson .tamgiac.active:before {
+    content: '';
+    position: absolute;
+    top: 106%;
+    left: 45%;
+    /* margin-left: -50px; */
+    width: 0;
+    height: 0;
+    border-bottom: solid 16px #ccc;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
 }

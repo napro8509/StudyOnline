@@ -33,3 +33,4 @@ $(document).on('click', '.sidebar-item', function(){
 	$('.appbar').removeClass('active');
 	$(this).find('.appbar').addClass('active');
 })
+

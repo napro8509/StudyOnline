@@ -1,6 +1,5 @@
 <?php include("general.php"); ?>
 <?php include("headerMore.php"); ?>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style1.css"><style>
 footer{
@@ -8,16 +7,32 @@ footer{
     bottom: 0px!important;
 }
 </style>
-<div class= "container pad-30" id="vatly">
-<a class="click-vatly" value="https://phet.colorado.edu/sims/html/under-pressure/latest/under-pressure_vi.html" name="select-img">Áp suất</a></br>
-
-<a class="click-vatly" value="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_vi.html" name="select-img">Bong bóng và tĩnh điện</a></br>
-
-<a class="click-vatly" value="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_vi.html" name="select-img">Bộ lắp ráp mạch điện: DC - Phòng thí nghiệm ảo</a></br>
-
-<a class="click-vatly" value="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_vi.html" name="select-img">Bộ lắp ráp mạch điện: DC</a></br>
-
-<a class="click-vatly" value="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_vi.html">Các dạng và sự chuyển hoá năng lượng</a></br>
+<div class= "container pad-60" id="vatly">
+    <div class="row style-vatly">
+        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        <a href="#" class="click-vatly" value="https://phet.colorado.edu/sims/html/under-pressure/latest/under-pressure_vi.html" name="select-img">Áp suất</a>
+    </div>
+</br>
+    <div class="row style-vatly">
+        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        <a href="#" class="click-vatly" value="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_vi.html" name="select-img">Bong bóng và tĩnh điện</a>
+    </div>
+</br>
+    <div class="row style-vatly">
+        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        <a href="#" class="click-vatly" value="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_vi.html" name="select-img">Bộ lắp ráp mạch điện: DC - Phòng thí nghiệm ảo</a>
+    </div>
+</br>
+    <div class="row style-vatly">
+       <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+       <a href="#" class="click-vatly" value="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_vi.html" name="select-img">Bộ lắp ráp mạch điện: DC</a>
+    </div>
+</br>
+    <div class="row style-vatly">
+        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        <a href="#" class="click-vatly" value="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_vi.html">Các dạng và sự chuyển hoá năng lượng</a>
+    </div>
+</br>
 </div>
 
 <script type="text/javascript">
