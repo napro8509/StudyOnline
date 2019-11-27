@@ -1,4 +1,4 @@
-
+<?php include("general.php"); ?>
 <?php include("headerMore.php"); ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400"> 

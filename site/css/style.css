@@ -2062,5 +2062,5 @@ footer.footer .social-link:hover{
     color: #999;
 }
 .pagination .active a{
-    background-color: var(--bg-big-color)!important;
+    background-color: var(--text-title-color)!important;
 }

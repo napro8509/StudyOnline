@@ -1,5 +1,3 @@
-
-
 <?php include("general.php"); ?>
 <?php include("headerMore.php"); ?>
 <link rel="stylesheet" type="text/css" href="site/css/templatemo-style.css">
