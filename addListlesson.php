@@ -272,7 +272,44 @@
 				</div>
 			</div>
 	  		<div class="tab-pane fade" role="tabpanel" id="luyentap">noi dung ne</div>
-  			<div class="tab-pane fade" role="tabpanel" id="chienluochoctap">noi dung cua chien luoc hoc tap ne</div>
+  			<div class="tab-pane fade" role="tabpanel" id="chienluochoctap">
+				  <div class="container">
+						<div class="row header-chienluoc">
+						<i class="fa fa-sign-in" aria-hidden="true"></i> Vào Học
+						</div>
+						<div class="row">
+							<div class="col-1"></div>
+							<div class="col-6 chienluoc-box">
+								<p class="cap-current-text"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Năng lực hiện tại: <span class="cap-current-num">8.0</span></p>
+								<a class="btn-style-general btn-do-exam" href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Làm Bài Test</a>
+								<form class="row" style="align-items: center; margin-top:10px;">
+									<span class="desire-score col-6"><i class="fa fa-magic" aria-hidden="true"></i> Điểm Số Mong Muốn: </span>
+									<input class="col-2 desire-score-input" type="number" name="fname">
+								</form>
+								<ul class="chienluoc-parent"><i class="fa fa-university" aria-hidden="true"></i>Chiến lược học tập
+									<li class="chienluoc-children chienluoc-first-child">Ôn Tập Chương 2</li>
+									<li class="chienluoc-children">Luyện Thêm Đề</li>
+								</ul>
+							</div>
+							<div class="col-5">
+								<div class="row">
+									<div class="col-6">
+										<img class="img-chienluochoctap" alt="Thách đấu bạn bè cùng chơi" src="./site/img/img2.png">
+									</div>
+									<div class="col-6">
+										<img class="img-chienluochoctap" alt="Tham gia các sự kiện hấp dẫn" src="./site/img/img3.png">
+									</div>
+									<div class="col-6">
+										<img class="img-chienluochoctap" alt="Tranh tài trên bảng xếp hạng" src="./site/img/img4.png">
+									</div>
+									<div class="col-6">
+										<img class="img-chienluochoctap" alt="Luyện đề trắc nghiệm chọn lọc" src="./site/img/img1.png">
+									</div>
+								</div>
+							</div> 
+						</div>
+				  </div>
+			</div>
   		</div>
 	</div>
 </content>

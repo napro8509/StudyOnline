@@ -2064,3 +2064,62 @@ footer.footer .social-link:hover{
 .pagination .active a{
     background-color: var(--text-title-color)!important;
 }
+#chienluochoctap {
+    width: 100%;
+    box-shadow: var(--box-shadow-style);
+    border-radius: 6px;
+    background: #fff;    
+    padding: 30px 0;
+}
+.desire-score-input {
+    margin-bottom: 0;
+    border-radius: 6px;
+}
+
+#chienluochoctap i{
+    color: #999;
+    font-size: 16px;
+}
+#chienluochoctap .btn-do-exam .fa{
+    font-size: 20px;
+    color:#fff;
+}
+.cap-current-text {
+    color: var(--text-title-color);
+    margin-bottom: 10px;
+}
+.chienluoc-parent {
+    padding: 0;
+}
+.chienluoc-children {
+    margin-left: 50px;
+}
+.chienluoc-first-child {
+    margin-top: 20px;
+}
+.header-chienluoc {
+    padding: 0 50px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.chienluoc-box {
+    padding-top: 20px;
+}
+#chienluochoctap .fa-sign-in {
+    font-size: 30px;
+    color: var(--bg-color);
+    margin-right: 20px;
+}
+.img-chienluochoctap {
+    margin-top: 20px;
+    max-width: 60%;
+    border: 2px solid #3c444f;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
